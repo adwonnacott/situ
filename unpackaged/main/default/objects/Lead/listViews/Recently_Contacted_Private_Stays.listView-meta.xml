@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recently_Contacted_Private_Stays</fullName>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Type_of_Stay__c</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>Location__c</columns>
+    <columns>Length_of_Stay__c</columns>
+    <columns>pi__comments__c</columns>
+    <columns>pi__conversion_object_name__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Type_of_Stay__c</field>
+        <operation>equals</operation>
+        <value>private</value>
+    </filters>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>8/27/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Working,Converted,Closed</value>
+    </filters>
+    <label>Recently Contacted Private Stays</label>
+    <queue>New_Web_Leads</queue>
+</ListView>

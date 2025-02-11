@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter the 9-character Situ reference related to this record. This should be in the format 1A2B-3C4D. --></help>
+        <label><!-- Situ Reference --></label>
+        <name>Situ_Reference__c</name>
+    </CustomFieldTranslation>

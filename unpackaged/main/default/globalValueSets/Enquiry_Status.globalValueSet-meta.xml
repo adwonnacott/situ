@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New Unassigned</label>
+    </customValue>
+    <customValue>
+        <fullName>New Assigned</fullName>
+        <default>false</default>
+        <label>New Assigned</label>
+    </customValue>
+    <customValue>
+        <fullName>Quoting</fullName>
+        <default>false</default>
+        <label>Quoting</label>
+    </customValue>
+    <customValue>
+        <fullName>Quoted</fullName>
+        <default>false</default>
+        <label>Quoted</label>
+    </customValue>
+    <customValue>
+        <fullName>Re Quoting</fullName>
+        <default>false</default>
+        <label>Re Quoting</label>
+    </customValue>
+    <customValue>
+        <fullName>Re Quoted</fullName>
+        <default>false</default>
+        <label>Re Quoted</label>
+    </customValue>
+    <customValue>
+        <fullName>Closed Booked</fullName>
+        <default>false</default>
+        <label>Closed Booked</label>
+    </customValue>
+    <customValue>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+        <label>Closed Lost</label>
+    </customValue>
+    <customValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+    </customValue>
+    <customValue>
+        <fullName>Incomplete</fullName>
+        <default>false</default>
+        <label>Incomplete</label>
+    </customValue>
+    <customValue>
+        <fullName>Reopened</fullName>
+        <default>false</default>
+        <label>Re Opened</label>
+    </customValue>
+    <masterLabel>Enquiry Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

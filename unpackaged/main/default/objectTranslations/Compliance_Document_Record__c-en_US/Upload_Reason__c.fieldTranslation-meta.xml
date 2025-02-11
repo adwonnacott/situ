@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Upload Reason --></label>
+        <name>Upload_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Insurance Options</masterLabel>
+            <translation><!-- Insurance Options --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response to Expiry Email</masterLabel>
+            <translation><!-- Response to Expiry Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updating All Properties</masterLabel>
+            <translation><!-- Updating All Properties --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urgent Booking</masterLabel>
+            <translation><!-- Urgent Booking --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

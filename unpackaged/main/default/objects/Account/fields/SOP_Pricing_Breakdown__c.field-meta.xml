@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SOP_Pricing_Breakdown__c</fullName>
+    <label>Pricing Breakdown</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nightly Exc Tax (UK)</fullName>
+                <default>false</default>
+                <label>Nightly Exc Tax (UK)</label>
+            </value>
+            <value>
+                <fullName>Nightly Inc Tax (UK)</fullName>
+                <default>false</default>
+                <label>Nightly Inc Tax (UK)</label>
+            </value>
+            <value>
+                <fullName>Nightly Exc Tax (Intl.)</fullName>
+                <default>false</default>
+                <label>Nightly Exc Tax (Intl.)</label>
+            </value>
+            <value>
+                <fullName>Nightly Inc Tax (Intl.)</fullName>
+                <default>false</default>
+                <label>Nightly Inc Tax (Intl.)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

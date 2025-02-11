@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversions_This_Quarter_Last_Year__c</fullName>
+    <description>Calculates percentage of conversions for the current quarter last year</description>
+    <formula>Bookings_This_Quarter_Last_Year_NEW__c /  Enquiries_This_Quarter_Last_Year_NEW__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Conversions This Quarter Last Year</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Percent</type>
+</CustomField>

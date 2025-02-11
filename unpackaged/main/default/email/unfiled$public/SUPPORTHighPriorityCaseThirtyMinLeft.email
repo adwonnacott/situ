@@ -1,0 +1,8 @@
+*** 30 MINUTES LEFT TO RESOLVE HIGH PRIORITY CASE ***  
+
+
+Company:  {!Account.Name} 
+Case:  {!Case.CaseNumber}:  {!Case.Subject} 
+Owner:  {!Case.OwnerFullName}  
+
+Click on the link to access the case:  {!Case.Link}

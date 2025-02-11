@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Town or City for the Location Address eg. Taunton --></help>
+        <label><!-- Town / City --></label>
+        <name>Location_Address_Town_City__c</name>
+    </CustomFieldTranslation>

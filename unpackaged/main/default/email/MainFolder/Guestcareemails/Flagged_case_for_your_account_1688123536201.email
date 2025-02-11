@@ -1,0 +1,38 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body style="height: auto; min-height: auto;">
+  <div style="text-align: center;"><img alt="MicrosoftTeams-image (4)" src="{[devName:MicrosoftTeamsimage_4]}" style="max-width: 1487.25px; width: 397px; height: 79px;" title="MicrosoftTeams-image (4)" />
+  </div>
+  <div><br /> <span style="color: rgb(34, 23, 52); font-family: &quot;Gill Sans&quot;, Arial, Helvetica, sans-serif; font-size: 11pt;"><span style="line-height:107%">Hello,<br /> <br /> A case for your account&nbsp;{{{Case.AccountId}}} was flagged by the guest care team and might need your attention.&nbsp;</span></span><br /> <br /> <font color="#221734" face="Gill Sans, Arial, Helvetica, sans-serif">Case reason:&nbsp;{{{Case.Reason}}}<br /> Case Subject:&nbsp;{{{Case.Subject}}}<br /> Case description:&nbsp;{{{Case.Description}}}</font><br /> <font color="#221734" face="Gill Sans, Arial, Helvetica, sans-serif">Case Owner:&nbsp;{{{Case.Logged_in_User_Lookup_del__c}}}</font><br /> <font color="#221734" face="Gill Sans, Arial, Helvetica, sans-serif">Case created on:&nbsp;{{{Case.CreatedDate}}}</font><br /> <font color="#221734" face="Gill Sans, Arial, Helvetica, sans-serif">Guest name:&nbsp;{{{Case.Guest__c}}}</font><br /> <font color="#221734" face="Gill Sans, Arial, Helvetica, sans-serif">Last note:&nbsp;{{{Case.Case_Comment__c}}}</font><br /> <br /> <br /> <span style="color: rgb(34, 23, 52); font-family: &quot;Gill Sans&quot;, Arial, Helvetica, sans-serif; font-size: 11pt;"><span style="line-height:107%">Kind regards,</span></span><br /> <br /> <span style="line-height: 107%;"><font color="#221734" face="Gill Sans, Arial, Helvetica, sans-serif"><span style="font-size: 14.6667px;">Guest care</span><span style="font-size: 11pt;">&nbsp;team</span></font></span>
+  </div>
+  <div style="text-align: center;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 261.047px; top: 251px; text-align: center;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 261.047px; top: 251px; text-align: center;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 218.547px; top: 251px; text-align: center;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 218.547px; top: 251px; text-align: center;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 291.547px; top: 8px;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 291.547px; top: 8px;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 150.6px; top: 8px;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 150.6px; top: 8px;">
+   &nbsp;
+  </div>
+ </body>
+</html>

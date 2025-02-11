@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Case Escalation Top Level</name>
+    <queueMembers>
+        <users>
+            <user>nathan.lovegrove@staysitu.com</user>
+            <user>phil.stapleton@staysitu.com</user>
+            <user>tamara.edgar@staysitu.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

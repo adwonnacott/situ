@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Format__c</fullName>
+    <description>Defines the VAT model applied by the partner for stays of 29 nights or longer. UK only.</description>
+    <inlineHelpText>Select the VAT model used for stays of 29 nights or longer to ensure compliance and accurate invoicing. UK only.</inlineHelpText>
+    <label>Tax Format</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Drop 4% (Reduced Value Rule - VAT on 20% of the total)</fullName>
+                <default>false</default>
+                <label>Drop 4% (Reduced Value Rule - VAT on 20% of the total)</label>
+            </value>
+            <value>
+                <fullName>Drop 0% (Minimal services, VAT on additional services only)</fullName>
+                <default>false</default>
+                <label>Drop 0% (Minimal services, VAT on additional services only)</label>
+            </value>
+            <value>
+                <fullName>No Drop (Standard VAT on full value)</fullName>
+                <default>false</default>
+                <label>No Drop (Standard VAT on full value)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

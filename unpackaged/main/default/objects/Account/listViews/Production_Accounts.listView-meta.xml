@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Production_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Marketing_Group__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sales_Channel__c</field>
+        <operation>equals</operation>
+        <value>Media/Production</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>notEqual</operation>
+        <value>Prospect,Prospect (Open Opportunity),Closed Client</value>
+    </filters>
+    <filters>
+        <field>Marketing_Group__c</field>
+        <operation>notEqual</operation>
+        <value>No Marketing</value>
+    </filters>
+    <label>Production Accounts</label>
+</ListView>

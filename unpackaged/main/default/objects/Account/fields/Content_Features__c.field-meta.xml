@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Content_Features__c</fullName>
+    <label>Content Features</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Static Content</fullName>
+                <default>false</default>
+                <label>Static Content</label>
+            </value>
+            <value>
+                <fullName>Descriptive Content</fullName>
+                <default>false</default>
+                <label>Descriptive Content</label>
+            </value>
+            <value>
+                <fullName>Bill Back</fullName>
+                <default>false</default>
+                <label>Bill Back</label>
+            </value>
+            <value>
+                <fullName>Length of Stay Restrictions</fullName>
+                <default>false</default>
+                <label>Length of Stay Restrictions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

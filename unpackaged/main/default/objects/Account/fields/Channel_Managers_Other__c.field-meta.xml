@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel_Managers_Other__c</fullName>
+    <description>Captures additional channel managers not included in the predefined global list.</description>
+    <inlineHelpText>Enter details of any other channel managers used by the partner that are not included in the global list.</inlineHelpText>
+    <label>Channel Managers (Other)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

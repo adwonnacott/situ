@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total time in minutes to quote enquiries over month --></help>
+        <label><!-- Personal Response Time Achieved --></label>
+        <name>Personal_Response_Time_Achieved__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCM_Closed_Partnered</fullName>
+    <columns>LEAD.COMPANY</columns>
+    <columns>Supplier_Accounts__c</columns>
+    <columns>Operation_Model__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>Number_of_properties__c</columns>
+    <columns>Which_locations_do_you_operate__c</columns>
+    <columns>Stage_Change_Date__c</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <columns>Date_of_Last_Note__c</columns>
+    <columns>Supplier_Sub_Stage__c</columns>
+    <columns>Current_Notes__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>smana,byate,Unassigned Supplier Leads,steam</value>
+    </filters>
+    <filters>
+        <field>Supplier_Stage__c</field>
+        <operation>equals</operation>
+        <value>Partnered</value>
+    </filters>
+    <filters>
+        <field>LEAD.LAST_UPDATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>10/1/2023 12:00 AM</value>
+    </filters>
+    <label>SCM - Supply Leads - Partnered</label>
+</ListView>

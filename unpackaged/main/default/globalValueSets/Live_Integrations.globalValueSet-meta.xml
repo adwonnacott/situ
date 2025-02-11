@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>SuperControl</fullName>
+        <default>false</default>
+        <label>SuperControl</label>
+    </customValue>
+    <customValue>
+        <fullName>Rentals United</fullName>
+        <default>false</default>
+        <label>Rentals United</label>
+    </customValue>
+    <description>This is a list of all the live integration methods</description>
+    <masterLabel>Live Integrations</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

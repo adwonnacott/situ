@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Commercial_Terms__c</fullName>
+    <description>This field is for detailing any additional commercial terms agreed upon in the contract.</description>
+    <inlineHelpText>Enter any other commercial terms agreed with the partner, such as special conditions/unique agreements/explanations of no terms. Maximum 255 characters.</inlineHelpText>
+    <label>Other Commercial Terms</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

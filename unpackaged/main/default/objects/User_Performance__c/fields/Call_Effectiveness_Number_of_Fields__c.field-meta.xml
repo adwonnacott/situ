@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Effectiveness_Number_of_Fields__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(TEXT(Greeting_and_Introduction__c )),0,1) + IF(ISBLANK(TEXT(Language__c)),0,1) + IF(ISBLANK(TEXT(Control__c)),0,1) + IF(ISBLANK(TEXT(Tone_of_Voice__c)),0,1)  + IF(ISBLANK(TEXT(Pacing__c)),0,1) + IF(ISBLANK(TEXT(Attitude__c)),0,1) + IF(ISBLANK(TEXT(Questioning__c)),0,1) + IF(ISBLANK(TEXT(Product_Knowledge__c)),0,1) + IF(ISBLANK(TEXT(Negotiation__c)),0,1) + IF(ISBLANK(TEXT(Urgency_and_Closing__c)),0,1)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Call Effectiveness Number of Fields</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

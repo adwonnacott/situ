@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Feature Request</fullName>
+        <default>false</default>
+        <label>Feature Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Question</fullName>
+        <default>false</default>
+        <label>Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Damages</fullName>
+        <default>false</default>
+        <label>Damages</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pre-arrival</fullName>
+        <default>false</default>
+        <label>Pre-arrival</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Problem Partner at fault</fullName>
+        <default>false</default>
+        <label>Problem Partner at fault</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Problem Partner not at fault</fullName>
+        <default>false</default>
+        <label>Problem Partner not at fault</label>
+    </standardValue>
+</StandardValueSet>

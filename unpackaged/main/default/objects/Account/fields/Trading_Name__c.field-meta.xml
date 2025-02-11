@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trading_Name__c</fullName>
+    <description>The name under which the partner operates or conducts business. This may be different from their legal entity name.</description>
+    <inlineHelpText>Enter the partner&#39;s trading name. This may be different from their legal entity name.</inlineHelpText>
+    <label>Trading Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration_Account_Type__c</fullName>
+    <description>Identifies the type of service or system the company provides.</description>
+    <inlineHelpText>Select what service or system the company provides.</inlineHelpText>
+    <label>Integration Account Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Property Management System</fullName>
+                <default>false</default>
+                <label>Property Management System</label>
+            </value>
+            <value>
+                <fullName>Channel Manager</fullName>
+                <default>false</default>
+                <label>Channel Manager</label>
+            </value>
+            <value>
+                <fullName>Switch</fullName>
+                <default>false</default>
+                <label>Switch</label>
+            </value>
+            <value>
+                <fullName>Central Reservation System</fullName>
+                <default>false</default>
+                <label>Central Reservation System</label>
+            </value>
+            <value>
+                <fullName>Online Booking Tool (OBT)</fullName>
+                <default>false</default>
+                <label>Online Booking Tool (OBT)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

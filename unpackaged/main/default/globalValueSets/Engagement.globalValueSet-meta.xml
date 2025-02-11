@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Reengaged</fullName>
+        <default>false</default>
+        <label>Reengaged</label>
+    </customValue>
+    <customValue>
+        <fullName>Dormant</fullName>
+        <default>false</default>
+        <label>Dormant</label>
+    </customValue>
+    <masterLabel>Engagement</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

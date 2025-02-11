@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Email</name>
+        <label>Email</label>
+        <locationX>182</locationX>
+        <locationY>974</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>Notification</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <stringValue>sandra.oberg@staysitu.com, marketing@staysitu.com</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>{!Get_Account.Name} Marketing Request</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>55.0</apiVersion>
+    <decisions>
+        <name>Is_it_a_Christmas_gift</name>
+        <label>Is it a Christmas gift?</label>
+        <locationX>182</locationX>
+        <locationY>638</locationY>
+        <defaultConnector>
+            <targetReference>Email</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Regular gift</defaultConnectorLabel>
+        <rules>
+            <name>Christmas_Gift</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Christmas_Hamper</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Gift_size</targetReference>
+            </connector>
+            <label>Christmas Gift</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Request Marketing Button {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Request Marketing</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_Account</name>
+        <label>Get Account</label>
+        <locationX>182</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Request_Marketing</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AccountID</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Account</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <screens>
+        <name>Gift_size</name>
+        <label>Gift size</label>
+        <locationX>50</locationX>
+        <locationY>758</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Email</targetReference>
+        </connector>
+        <fields>
+            <name>Large_Hamper</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Large Hamper</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Medium_Hamper</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Medium Hamper</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Small_Hamper</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Small Hamper</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Copy_1_of_Marketing_collateral</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Marketing collateral</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Sharable_Chocolate</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Sharable Chocolate</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Small_Chocolate</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Small Chocolate</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Copy_1_of_Comments</name>
+            <fieldText>Comments</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <nextOrFinishButtonLabel>Next</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Pick_address</name>
+        <label>Address and recipient</label>
+        <locationX>182</locationX>
+        <locationY>398</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>What_would_you_like_to_send</targetReference>
+        </connector>
+        <fields>
+            <name>Recipient</name>
+            <extensionName>flowruntime:name</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>label</name>
+                <value>
+                    <stringValue>Recipient Name</stringValue>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
+        </fields>
+        <fields>
+            <name>Address</name>
+            <extensionName>flowruntime:address</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>addressLabel</name>
+                <value>
+                    <stringValue>Send to this address</stringValue>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
+        </fields>
+        <nextOrFinishButtonLabel>Submit</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>Request_Marketing</name>
+        <label>Request Marketing</label>
+        <locationX>182</locationX>
+        <locationY>278</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Pick_address</targetReference>
+        </connector>
+        <fields>
+            <name>Title</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong style=&quot;font-size: 18px; color: rgb(64, 34, 192);&quot;&gt;&lt;img src=&quot;https://situlivingltd--c.documentforce.com/sfc/servlet.shepherd/version/download/0684K00000DO8gH?asPdf=false&amp;amp;operationContext=CHATTER&quot; alt=&quot;MicrosoftTeams-image (119).png&quot;&gt;Add the cherry on the top&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <nextOrFinishButtonLabel>Request Marketing</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <name>What_would_you_like_to_send</name>
+        <label>What would you like to send?</label>
+        <locationX>182</locationX>
+        <locationY>518</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Is_it_a_Christmas_gift</targetReference>
+        </connector>
+        <fields>
+            <name>Welcome_box</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Welcome box</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Booker_treats</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Booker treats</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Special_gift</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Special gift</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Marketing_collateral</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Marketing collateral</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Christmas_Hamper</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Christmas Hamper</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Comments</name>
+            <fieldText>Comments</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <nextOrFinishButtonLabel>Next</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Account</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>Notification</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>New marketing request submitted for:
+ {!Get_Account.Name} {!AccountID} 
+Recipient: {!Recipient.firstName} {!Recipient.lastName}
+Request type:
+Marketing Collateral {!Marketing_collateral}
+Special Gift: {!Special_gift}
+Booker Treats: {!Booker_treats}
+Welcome Box: {!Welcome_box}
+Comments:  {!Comments}
+Christmas Hamper: {!Christmas_Hamper}
+What size would you like to send?
+Laarge Hamper - {!Large_Hamper}
+Medium hamper - {!Medium_Hamper}
+Small Hamper - {!Small_Hamper}
+Sharable Chocolate - {!Sharable_Chocolate}
+Small Chocolate - {!Small_Chocolate}
+
+Address:
+{!Address.addressLabel}
+{!Address.street}
+{!Address.city}
+{!Address.country}
+{!Address.postalCode}</text>
+    </textTemplates>
+    <variables>
+        <name>AccountID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

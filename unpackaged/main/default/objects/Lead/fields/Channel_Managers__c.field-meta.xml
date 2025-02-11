@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel_Managers__c</fullName>
+    <description>Enter the Channel Manager the Partner uses. If &#39;Other&#39;, fill in the field Channel Managers (Other).</description>
+    <inlineHelpText>Enter the Channel Manager the Partner uses. If &#39;Other&#39;, fill in the field Channel Managers (Other).</inlineHelpText>
+    <label>Channel Managers</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Channel_Managers</valueSetName>
+    </valueSet>
+</CustomField>

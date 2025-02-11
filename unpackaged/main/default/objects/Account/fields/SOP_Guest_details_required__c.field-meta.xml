@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SOP_Guest_details_required__c</fullName>
+    <label>Guest details required?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Arrival Time</fullName>
+                <default>false</default>
+                <label>Arrival Time</label>
+            </value>
+            <value>
+                <fullName>Phone Number</fullName>
+                <default>false</default>
+                <label>Phone Number</label>
+            </value>
+            <value>
+                <fullName>Email Address</fullName>
+                <default>false</default>
+                <label>Email Address</label>
+            </value>
+            <value>
+                <fullName>Flight Details</fullName>
+                <default>false</default>
+                <label>Flight Details</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

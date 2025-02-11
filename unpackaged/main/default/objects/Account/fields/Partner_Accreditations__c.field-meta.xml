@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Accreditations__c</fullName>
+    <description>Lists the certifications or accreditations the partner has achieved.</description>
+    <inlineHelpText>Select all accreditations the partner has achieved. If &#39;Other&#39; is selected, provide details in the &#39;Other&#39; field.</inlineHelpText>
+    <label>Partner Accreditations</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Greengage</fullName>
+                <default>false</default>
+                <label>Greengage</label>
+            </value>
+            <value>
+                <fullName>Quality in Tourism</fullName>
+                <default>false</default>
+                <label>Quality in Tourism</label>
+            </value>
+            <value>
+                <fullName>I-PRAC</fullName>
+                <default>false</default>
+                <label>I-PRAC</label>
+            </value>
+            <value>
+                <fullName>ISAAP</fullName>
+                <default>false</default>
+                <label>ISAAP</label>
+            </value>
+            <value>
+                <fullName>Ecovadis</fullName>
+                <default>false</default>
+                <label>Ecovadis</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

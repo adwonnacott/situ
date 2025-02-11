@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>53.0</apiVersion>
+    <description>Use this flow to manually mass edit records. Never Activate this flow. It is used to manually edit records using the debug button based on the criteria you can edit each time a mass edit action is needed.</description>
+    <environments>Default</environments>
+    <interviewLabel>Direct Corp Account Onwers {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Bulk edit</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>update_to_qualified</name>
+        <label>update to qualified</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>StartsWith</operator>
+            <value>
+                <stringValue>a</stringValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Current_Notes__c</field>
+            <value>
+                <elementReference>MassUpdateTE</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Supplier_Contacts__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>update_to_qualified</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+    <textTemplates>
+        <name>MassUpdateTE</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;Mass Update TE&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>Reservationstext</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Mass update automation, please ignore this note TE</text>
+    </textTemplates>
+</Flow>

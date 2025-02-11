@@ -1,0 +1,8 @@
+*** URGENT HIGH PRIORITY CASE WAS CREATED ***  
+This needs immediate attention! 
+
+Company:  {!Account.Name} 
+Case:  {!Case.CaseNumber}:  {!Case.Subject} 
+Owner:  {!Case.OwnerFullName}  
+
+Click on the link to access the case:  {!Case.Link}

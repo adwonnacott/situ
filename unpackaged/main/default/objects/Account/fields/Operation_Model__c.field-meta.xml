@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operation_Model__c</fullName>
+    <description>Defines the model of the partner&#39;s business.</description>
+    <inlineHelpText>Select the operational model that best describes how the partner operates their properties</inlineHelpText>
+    <label>Operation Model</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Operation_Model</valueSetName>
+    </valueSet>
+</CustomField>

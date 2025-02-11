@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Did the employee use a good range of open and closed questions to fully understand the clients needs and address their concerns? --></help>
+        <label><!-- Questioning --></label>
+        <name>Questioning__c</name>
+    </CustomFieldTranslation>

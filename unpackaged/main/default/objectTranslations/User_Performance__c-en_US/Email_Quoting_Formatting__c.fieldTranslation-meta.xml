@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Are emails well formatted?  Are all of the options presented in the same way? --></help>
+        <label><!-- Email / Quoting Formatting --></label>
+        <name>Email_Quoting_Formatting__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vertical__c</fullName>
+    <description>This is the vertical the client has been assigned in the &#39;Account&#39; object.</description>
+    <externalId>false</externalId>
+    <formula>TEXT(Account__r.Sales_Channel__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This is the vertical the client has been assigned in the &#39;Account&#39; object.</inlineHelpText>
+    <label>Vertical</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

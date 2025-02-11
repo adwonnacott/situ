@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SLA_Alert_Re_Quoting_to_ReQuoted__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( AND(  SLA_Response_Time_Target_Minutes__c   &gt;= 240, SLA_Response_Time_Target_Minutes__c -     Re_Quoting_to_ReQuoted_SLA_Timer__c     &gt; 120),IMAGE(&quot;/img/samples/color_green.gif&quot;, &quot;green&quot;, 30, 30), 
+IF( AND( SLA_Response_Time_Target_Minutes__c   &lt;  240, SLA_Response_Time_Target_Minutes__c -   Re_Quoting_to_ReQuoted_SLA_Timer__c   &gt; 60),IMAGE(&quot;/img/samples/color_green.gif&quot;, &quot;green&quot;, 30, 30),
+IF(  (SLA_Response_Time_Target_Minutes__c  -   Re_Quoting_to_ReQuoted_SLA_Timer__c    &lt;=  0), IMAGE(&quot;/img/samples/color_red.gif&quot;, &quot;red&quot;, 30, 30),
+IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;yellow&quot;, 30, 30))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>SLA Alert Re Quoting to ReQuoted</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

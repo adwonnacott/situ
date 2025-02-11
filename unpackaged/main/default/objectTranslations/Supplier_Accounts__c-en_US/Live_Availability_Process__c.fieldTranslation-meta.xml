@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Live Availability Process --></label>
+        <name>Live_Availability_Process__c</name>
+        <picklistValues>
+            <masterLabel>Closed Parked</masterLabel>
+            <translation><!-- Closed Parked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIVE In Progress</masterLabel>
+            <translation><!-- LIVE In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Live</masterLabel>
+            <translation><!-- Live --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Matching Channel Manager</masterLabel>
+            <translation><!-- No Matching Channel Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing</masterLabel>
+            <translation><!-- Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uncontacted Supplier</masterLabel>
+            <translation><!-- Uncontacted Supplier --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

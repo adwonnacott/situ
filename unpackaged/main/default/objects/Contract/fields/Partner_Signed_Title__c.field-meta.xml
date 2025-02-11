@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Signed_Title__c</fullName>
+    <description>Enter here the job title of the person signing the contract.</description>
+    <inlineHelpText>Enter here the job title of the person signing the contract.</inlineHelpText>
+    <label>Partner Signed Title</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

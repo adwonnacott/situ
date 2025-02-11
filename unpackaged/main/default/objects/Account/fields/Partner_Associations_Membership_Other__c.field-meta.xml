@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Associations_Membership_Other__c</fullName>
+    <description>Captures additional association memberships not included in the predefined list.</description>
+    <inlineHelpText>Enter details of any other associations the partner is affiliated with that are not included in the predefined options.</inlineHelpText>
+    <label>Partner Associations Membership (Other)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

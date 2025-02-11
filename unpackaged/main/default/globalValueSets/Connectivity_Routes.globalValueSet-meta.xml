@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Property Management System</fullName>
+        <default>false</default>
+        <label>Property Management System</label>
+    </customValue>
+    <customValue>
+        <fullName>Channel Manager</fullName>
+        <default>false</default>
+        <label>Channel Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Manual Upload</fullName>
+        <default>false</default>
+        <label>Manual Upload</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>These are the different routes that a partner can use to list their properites with us.</description>
+    <masterLabel>Connectivity Routes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activated_LIVE__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is only to be ticked at the final stage of getting an account LIVE!</description>
+    <inlineHelpText>Please only set this to &quot;true&quot; if you know what you are doing! If unsure, contact your administrator !</inlineHelpText>
+    <label>Activated LIVE!</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

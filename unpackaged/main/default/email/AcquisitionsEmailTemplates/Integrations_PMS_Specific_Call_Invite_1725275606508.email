@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html style="overflow-y: hidden;">
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<h1><span style="font-size:14pt; line-height:107%; font-family:'Freigeist Con Black',sans-serif; color:#ea5c48; font-weight:bold">Next Steps in Your Partnership with Situ</span></h1>
+
+<h2 style="margin-bottom:11px"><span style="font-size:12pt; line-height:107%; font-family:'Open Sans', sans-serif; color:#4022c0">Hi {{{Recipient.FirstName}}} </span></h2>
+
+<p style="font-size:11pt; line-height:107%; font-family:'Open Sans',sans-serif">Thank you for filling out the Situ Partner Onboarding Form and showing interest in working with us. We&rsquo;re really looking forward to the possibility of a partnership.<br />
+<br />
+Given that you&rsquo;re using {{{Recipient.PMS__c}}}, I&rsquo;d love to discuss how we can seamlessly integrate your properties with Situ through this platform. By leveraging this integration, you&rsquo;ll be able to:</p>
+
+<ul style="margin-bottom:11px; font-size:11pt; line-height:107%; font-family:'Open Sans',sans-serif">
+	<li style="margin-bottom:11px"><span style="font-family:'Open Sans', sans-serif; color:#4022c0; font-weight:bold">Increased Exposure:</span> Reach a global clientele and enjoy year-round demand, even in rural locations where our booking demand is high even during off-peak months (October to March).</li>
+	<li style="margin-bottom:11px"><span style="font-family:'Open Sans', sans-serif; color:#4022c0; font-weight:bold">Seamless Integration:</span> Our integration with {{{Recipient.PMS__c}}} ensures that your property management process is streamlined and efficient.</li>
+	<li style="margin-bottom:11px"><span style="font-family:'Open Sans', sans-serif; color:#4022c0; font-weight:bold">Cost-free Partnership:</span> We operate on a commission basis, meaning no upfront costs for you.</li>
+	<li style="margin-bottom:11px"><span style="font-family:'Open Sans', sans-serif; color:#4022c0; font-weight:bold">24/7 Support:</span> Our award-winning team is always available to ensure smooth operations and address any concerns.</li>
+</ul>
+
+<p style="font-size:11pt; line-height:107%; font-family:'Open Sans',sans-serif">I&rsquo;d like to arrange a call to discuss the details of how our integration with {{{Recipient.PMS__c}}} can benefit your properties and answer any questions you might have. Please let me know when you&rsquo;re available this week or next, and we&rsquo;ll set up a time to chat.<br />
+<br />
+In the meantime, feel free to check out our <a href="https://info.staysitu.com/connect-with-situ" style="font-family:'Open Sans', sans-serif; color:#4022c0; font-weight:bold;">Connect with Situ</a>&nbsp;page, where there&rsquo;s a short video that explains more about the benefits of partnering with us.<br />
+<br />
+We would love to partner with you! Let me know when you have time this week or next for a call to run through the basics and answer any questions you might have.</p>
+
+<p style="font-size:11pt; line-height:107%; font-family:'Open Sans',sans-serif">Looking forward to our conversation!<br />
+<br />
+Many thanks,</p>
+
+<p style="font-size:11pt; line-height:107%; font-family:'Open Sans',sans-serif">Sam Davies</p>
+</body>
+</html>

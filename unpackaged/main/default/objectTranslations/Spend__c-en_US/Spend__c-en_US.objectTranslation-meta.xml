@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Spend</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Spends</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Client Spend</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Supplier Spend</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- This record type is used to monitor client spend. --></description>
+        <label><!-- Client Spend --></label>
+        <name>Client_Spend</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used to monitor supplier spend. --></description>
+        <label><!-- Supplier Spend --></label>
+        <name>Supplier_Spend</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

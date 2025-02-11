@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--[if gte mso 9]><xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+    <title>Survey Assignment Notification</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <style>
+      .mainDiv {
+          width: 80%;
+          border: 1px solid #ccc;
+          border-bottom: 4px solid #007f00;
+      }
+      .divImage {
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        padding: 16px;
+      }
+      .mainContent {
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        color: #404040;
+        padding: 16px;
+        display: block;
+      }
+      .linkURL{
+        margin-top: 12px;
+      }
+      .btnStartSurvey {
+        background-color: #1c87c9;
+        border: none;
+        text-align: center;
+        display: inline-block;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        width: 150px;
+      }
+      .startSurvey{
+        color: #ffffff !important;
+        text-decoration: none;
+        font-size: 16px;
+      }
+      .footerMessage {
+        font-size: 11px;
+        text-align: center;
+        color: #787878;
+      }
+      .divBorderFooter{
+          border-top: 1px solid #ccc;
+      }
+      .subContent{
+        display:block;
+      }
+      .ardr-question{
+        border: 1px solid #319FD6;
+        border-radius: 4px;
+        font-size: 20px;
+        width: 100%;
+      }
+      .ardr-size{
+        font-size: 20px;
+      }
+      .ardr-text{
+        margin: 16px 16px 0;
+      }
+      .ardr-center{
+        text-align: center;
+        margin: 16px 16px 0;
+      }
+      .ardr-choice{
+        color: #606060;
+        margin: 16px;
+      }
+      .ardr-yesno-box{
+        border: 1px solid #dddbda;
+        border-collapse: collapse;
+      }
+      .ardr-yesno-btn{
+        text-decoration: none;
+        color: rgb(85,95,178) !important;
+      }
+      .ardr-yesno-margin{
+        margin: 0 16px !important;
+      }
+      .ardr-yesno-center{
+        margin: 0 auto;
+      }
+      .ardr-square-box{
+        border: solid 1px #dddbda;
+        border-radius: 4px;
+        font-size: 0px;
+      }
+      .ardr-switch-box{
+        background-color: #b0adab;
+        border-radius: 16px;
+        width: 48px;
+        height: 24px;
+        display: inline-flex;
+      }
+      .ardr-switch-btn{
+        border: solid 1px #ffffff;
+        border-radius: 1rem;
+        margin: 2px 0;
+        background: white;
+        font-size: 13px;
+        text-decoration: none;
+      }
+      .ardr-cs-box{
+        border: solid 1px #dddbda;
+        border-radius: 4px;
+        display: inline-flex;
+        min-width: 150px;
+        min-height: 40px;
+        margin: 4px;
+      }
+      .ardr-cs-box:hover{
+        background-color: #f3f3f2;
+      }
+      .ardr-margin{
+        margin: 0 16px 16px !important;
+      }
+      .ardr-cust-sat{
+        padding: 4px;
+        width: 100%;
+        text-decoration: none;
+        color: #000000 !important;
+      }
+      .ardr-box{
+        border: solid 2px #dddbda;
+        border-radius: 4px;
+        max-width: 100%;
+      }
+      .ardr-ns-np{
+        text-decoration: none;
+        color: #000000 !important;
+        font-size: 20px;
+        margin: 10px;
+        height: 28px;
+        min-width: 28px;
+        display: inline-block;
+      }
+      .ardr-box-shadow{
+        background-color: #808080;
+        opacity: 0.35;
+      }
+      .ardr-box-shadow-hide{
+        background-color: #FFFFFF !important;
+      }
+      .ardr-border{
+        border: solid 1px #dddbda;
+      }
+      .ardr-circle{
+        border-radius: 50%;
+      }
+      .ardr-left{
+        font-size: 12px;
+        text-align: left;
+      }
+      .ardr-right{
+        font-size: 12px;
+        text-align: right;
+      }
+      .ardr-nps-left{
+        margin: 0 16px;
+      }
+      .ardr-nps-center{
+        margin: 0 auto;
+      }
+      .ardr-nps-choice{
+        border-spacing: 3px 0;
+        -webkit-border-horizontal-spacing: 3px;
+        -webkit-border-vertical-spacing: 0px;
+      }
+      .ardr-scroll{
+        -webkit-overflow-scrolling: touch;
+        max-width: 100%;
+        overflow: hidden;
+        overflow-x: auto;
+      }
+      .ardr-radio-btn{
+        text-decoration: none;
+        color: #dddbda !important;
+      }
+      .ardr-dropbtn {
+        padding: 0 8px;
+        font-size: 20px;
+        min-width: 300px;
+      }
+      .ardr-dropdown {
+        border: 1px solid #dddbda;
+        border-radius: 4px;
+      }
+      .ardr-drop-content {
+        display: none;
+        font-size: 20px;
+        z-index: 1;
+      }
+      .ardr-drop-content a {
+        color: #000000;
+        padding: 0 8px;
+        text-decoration: none;
+        display: block;
+      }
+      .ardr-drop-content:hover {background-color: #1589EE;}
+      .ardr-dropdown:hover .ardr-drop-content {display: block;}
+      .ardr-drop-link:hover {color: #FFFFFF;}
+      .ardr-link{
+        text-decoration: none;
+        color: #000000 !important;
+      }
+      .ardr-table-col{
+        text-align: center;
+        border: solid 1px #dddbda;
+        padding: 12px;
+        min-width: 100px;
+      }
+      .ardr-table-th{
+        text-align: center;
+        padding: 8px;
+        min-width: 100px;
+        font-size: 20px;
+      }
+      .ardr-show-other{
+        border: solid 1px #dddbda; 
+        padding: 12px;
+      }
+      .ardr-check-box{
+        border: solid 1px #dddbda;
+        border-radius: 4px;
+        font-size: 14px;
+      }
+      .ardr-check-space{
+        text-decoration: none;
+        font-size: 12px;
+      }
+      .ardr-square{
+        border: solid 1px #dddbda;
+        border-radius: 2px;
+        font-size: 16px;
+      }
+      .ardr-rating{
+        font-size: 48px;
+        text-decoration: none;
+        color: #000000 !important;
+      }
+      .ardr-rating-rs{
+        width: max-content;
+        display: inline-block;
+        margin: 0 16px 16px;
+      }
+      .ardr-rating-circle{
+        font-size: 80px;
+      }
+      .ardr-choice-width{
+        min-width: 30%;
+        width: fit-content;
+      }
+      .ardr-choice-border{
+        border: solid 1px #dddbda;
+        border-radius: 4px;
+        font-size: 20px;
+      }
+      .ardr-image-scale{
+        display: inline-block;
+        width: max-content;
+        text-decoration: none;
+        color: #000000 !important;
+        font-size: 14px;
+      }
+      .ardr-image-bd{
+        border: solid 1px #dddbda;
+        border-radius: 4px;
+        width: 16%;
+        display: inline-block;
+        margin: 8px;
+      }
+      .ardr-image-bd:hover{
+        background-color: #f3f3f2;
+        text-align: center;
+      }
+      .ardr-table{
+        text-align:center; 
+        margin-left:auto; 
+        margin-right:auto; 
+        width:96%;
+      }
+      .ardr-reverse{
+        direction: rtl;
+      }
+
+      /* Small devices */
+      @media only screen and (max-width: 480px) {
+        .ardr-rating-circle{
+          font-size: 3rem;
+        }
+        .mainDiv {
+          width: 100%;
+          border: 1px solid #ccc;
+          border-bottom: 4px solid #007f00;
+        }
+        .ardr-image-bd{
+          border: solid 1px #dddbda;
+          border-radius: 4px;
+          display: block;
+          width: 80%;
+          margin: 8px;
+        }
+        .ardr-nps-center{
+          margin: 0 16px 16px;
+        }
+        td.ardr-border{
+          border: solid 1px #dddbda;
+          height: 25px !important;
+          width: 25px !important;
+        }
+        .ardr-box-shadow{
+          background-color: #808080;
+          opacity: 0.35;
+          height: 40px !important;
+          width: 25px !important;
+        }
+        .ardr-color{
+          width: 25px !important;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .mainDiv {
+          width: 100%;
+          border: 1px solid #ccc;
+          border-bottom: 4px solid #007f00;
+        }
+        .ardr-image-bd{
+          border: solid 1px #dddbda;
+          border-radius: 4px;
+          display: block;
+          width: 80%;
+          margin: 8px;
+        }
+        .ardr-nps-center{
+          margin: 0 16px 16px;
+        }
+        td.ardr-border{
+          border: solid 1px #dddbda;
+          height: 25px !important;
+          width: 25px !important;
+        }
+        .ardr-box-shadow{
+          background-color: #808080;
+          opacity: 0.35;
+          height: 40px !important;
+          width: 25px !important;
+        }
+        .ardr-color{
+          width: 25px !important;
+        }
+      }
+   
+      <!-- Main content -->
+      <tr class="mainContent">
+      <!-- Survey Recepient Details -->
+        <td class="subContent">
+          <p> Dear {!IF(NOT(ISBLANK(ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Assigned_To_User__c)),ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Assigned_To_User__c, IF(NOT(ISBLANK(ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Assigned_To_Contact__c)), ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Assigned_To_Contact__c, IF(NOT(ISBLANK(ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Target_Record_Name__c)), ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Target_Record_Name__c, ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Assigned_To_Email__c)))},</p>
+          <p>You have been assigned the survey {!ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Survey__c}.</p>
+          <p>You can respond by clicking the below link or button </p>
+        </td>
+      </tr>
+      <tr class="mainContent">
+        <td class="subContent">
+          <table class="ardr-question"><tr><td>
+            {!SUBSTITUTE(ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Email_Embedded_Question_Preview__c, "https://www.ardira.com?", ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Response_URL__c&"&")}
+          </td></tr></table>
+        </td>
+      </tr>
+      <tr class="mainContent">
+        <td class="subContent">
+          <table cellspacing="4" cellpadding="4">
+            <tr>
+              <td class="btnStartSurvey">
+                <a href="{!ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Record_Edit_URL__c}" class="startSurvey">Start Survey</a>
+              </td>
+            </tr>
+          </table>
+          <p style="linkURL">{!ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Record_Edit_URL__c}</p>
+          <!-- Thank You -->
+          <p>Thank you,</p>
+          <p>Ardira SurveyVista</p>
+        </td>
+      </tr>
+      <!-- Footer Message -->
+      <tr><td class="divBorderFooter">
+		<p class="footerMessage"> Please do not forward this email as its survey link is unique to you.<br> Powered by <a href="https://surveyvista.com">Ardira SurveyVista</a></p>
+	  </td></tr>	  
+    </table>
+  </body>
+</html>

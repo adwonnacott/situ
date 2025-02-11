@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Secondary Address line - for example Borough --></help>
+        <label><!-- Line 2 --></label>
+        <name>Location_Address_Line_2__c</name>
+    </CustomFieldTranslation>

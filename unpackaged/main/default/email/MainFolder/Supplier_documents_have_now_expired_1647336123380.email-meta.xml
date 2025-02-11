@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Supplier documents have now expired</name>
+    <style>none</style>
+    <subject>Health and Safety Documents Needed</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Protection_Contact_Name__c</fullName>
+    <description>The name of the person responsible for data protection and privacy within a business.</description>
+    <inlineHelpText>Enter the full name of the individual who handles data protection and privacy matters for the company. This person will be the main contact for any data protection inquiries.</inlineHelpText>
+    <label>Data Protection Contact Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

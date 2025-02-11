@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Countries__c</fullName>
+    <description>Indicates the countries where the partner operates or provides accommodation.</description>
+    <inlineHelpText>Select all countries where the partner operates or provides accommodation.</inlineHelpText>
+    <label>Countries</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>UN_Member_States</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

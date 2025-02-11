@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html style="overflow-y: hidden;">
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<h1><span style="font-size:14pt; line-height:107%; font-family:'Freigeist Con Black',sans-serif; color:#ea5c48; font-weight:bold">Exciting Partnership Opportunity with Situ!</span></h1>
+
+<h2 style="margin-bottom:11px"><span style="font-size:12pt; line-height:107%; font-family:'Open Sans', sans-serif; color:#4022c0">Hi {{{Recipient.FirstName}}} </span></h2>
+
+<p style="font-size:11pt; line-height:107%; font-family:'Open Sans',sans-serif">I hope you&rsquo;re well!</p>
+
+<p style="font-size:11pt; line-height:107%; font-family:'Open Sans',sans-serif">My name is Sam Davies, Partner Onboarding Specialist at <a href="https://www.staysitu.com/" style="font-family:'Open Sans', sans-serif; color:#4022c0; font-weight:bold">Situ</a>, a global accommodation agency based in Exeter, UK. Since 2008, Situ has been a trusted provider of extended stay accommodation for businesses, offering tailored solutions and a seamless integration process for our partner network.&nbsp;</p>
+
+<p style="font-size:11pt; line-height:107%; font-family:'Open Sans',sans-serif">We would really love the opportunity to work with you! The great news is getting started is straightforward and full of benefits:</p>
+
+<ul style="margin-bottom:11px; font-size:11pt; line-height:107%; font-family:'Open Sans',sans-serif">
+	<li style="margin-bottom:11px"><span style="font-family:'Open Sans', sans-serif; color:#4022c0; font-weight:bold">Increased Exposure:</span> Reach a global clientele and enjoy year-round demand, even in rural locations where our booking demand is high even during off-peak months (October to March).</li>
+	<li style="margin-bottom:11px"><span style="font-family:'Open Sans', sans-serif; color:#4022c0; font-weight:bold">Seamless Integration:</span> Easily connect your properties via your Channel Manager, simplifying management.</li>
+	<li style="margin-bottom:11px"><span style="font-family:'Open Sans', sans-serif; color:#4022c0; font-weight:bold">Cost-free Partnership:</span> We operate on a commission basis, meaning no upfront costs for you.</li>
+	<li style="margin-bottom:11px"><span style="font-family:'Open Sans', sans-serif; color:#4022c0; font-weight:bold">24/7 Support:</span> Our award-winning team is always available to ensure smooth operations and address any concerns.</li>
+</ul>
+
+<p style="font-size:11pt; line-height:107%; font-family:'Open Sans',sans-serif">For more information on how we can work together and to watch a short explainer video, please visit our <a href="https://info.staysitu.com/connect-with-situ" style="font-family:'Open Sans', sans-serif; color:#4022c0; font-weight:bold;">Connect with Situ</a> page.</p>
+
+<p style="font-size:11pt; line-height:107%; font-family:'Open Sans',sans-serif">We would love to partner with you! Let me know when you have time this week or next for a call to run through the basics and answer any questions you might have.</p>
+
+<p style="font-size:11pt; line-height:107%; font-family:'Open Sans',sans-serif">Looking forward to hearing from you!</p>
+
+<p style="font-size:11pt; line-height:107%; font-family:'Open Sans',sans-serif">Many thanks,</p>
+
+<p style="font-size:11pt; line-height:107%; font-family:'Open Sans',sans-serif">Sam Davies</p>
+</body>
+</html>

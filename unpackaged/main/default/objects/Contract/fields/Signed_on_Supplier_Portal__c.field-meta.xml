@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Signed_on_Supplier_Portal__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Tick this box if the contract was signed via the supplier portal</description>
+    <inlineHelpText>Tick this box if the contract was signed via the supplier portal</inlineHelpText>
+    <label>Signed on Supplier Portal</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

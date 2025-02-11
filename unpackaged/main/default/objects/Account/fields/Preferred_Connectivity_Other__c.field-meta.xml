@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Connectivity_Other__c</fullName>
+    <description>Used when the partner’s preferred method of connectivity does not align with the standard options (PMS, Channel Manager, or Manual Upload). This may include custom integrations or other unique solutions.</description>
+    <inlineHelpText>Use this box if the partner’s preferred connectivity method does not fall under Property Management System (PMS), Channel Manager, or Manual Upload. This option is for non-standard or unique methods.</inlineHelpText>
+    <label>Preferred Connectivity (Other)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

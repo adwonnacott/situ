@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Sub_Stage__c</fullName>
+    <inlineHelpText>Select the current Supplier Sub-Stage to show how far along the onboarding process the lead is.</inlineHelpText>
+    <label>Supplier Sub-Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sent initial onboarding email</fullName>
+                <default>true</default>
+                <label>Sent initial onboarding email</label>
+            </value>
+            <value>
+                <fullName>Sent key requirements email</fullName>
+                <default>false</default>
+                <label>Sent key requirements email</label>
+            </value>
+            <value>
+                <fullName>Due Diligence In Progress</fullName>
+                <default>false</default>
+                <label>Due Diligence In Progress</label>
+            </value>
+            <value>
+                <fullName>Onboarding Paused</fullName>
+                <default>false</default>
+                <label>Onboarding Paused</label>
+            </value>
+            <value>
+                <fullName>Awaiting US PAA</fullName>
+                <default>false</default>
+                <label>Awaiting US PAA</label>
+            </value>
+            <value>
+                <fullName>PAA review in progress</fullName>
+                <default>false</default>
+                <label>PAA review in progress</label>
+            </value>
+            <value>
+                <fullName>Sent Portal login</fullName>
+                <default>false</default>
+                <label>Sent Portal login</label>
+            </value>
+            <value>
+                <fullName>Onboarding content</fullName>
+                <default>false</default>
+                <label>Onboarding content</label>
+            </value>
+            <value>
+                <fullName>Content uploaded</fullName>
+                <default>false</default>
+                <label>Content uploaded</label>
+            </value>
+            <value>
+                <fullName>No reply - 1 week</fullName>
+                <default>false</default>
+                <label>No reply - 1 week</label>
+            </value>
+            <value>
+                <fullName>No reply - 2 week</fullName>
+                <default>false</default>
+                <label>No reply - 2 week</label>
+            </value>
+            <value>
+                <fullName>Rejected - Additional Supply Not Required in Location</fullName>
+                <default>false</default>
+                <label>Rejected - Additional Supply Not Required in Location</label>
+            </value>
+            <value>
+                <fullName>Rejected - Less than 10 properties</fullName>
+                <default>false</default>
+                <label>Rejected - Less than 10 properties</label>
+            </value>
+            <value>
+                <fullName>Rejected - Unsatisfactory reviews/standards</fullName>
+                <default>false</default>
+                <label>Rejected - Unsatisfactory reviews/standards</label>
+            </value>
+            <value>
+                <fullName>Rejected - No compatible CM/PMs connection</fullName>
+                <default>false</default>
+                <label>Rejected - No compatible CM/PMs connection</label>
+            </value>
+            <value>
+                <fullName>Incomplete Form</fullName>
+                <default>false</default>
+                <label>Incomplete Form</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

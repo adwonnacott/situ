@@ -1,0 +1,10 @@
+*** Sterling Lexicon case was created ***  
+ 
+This email is to bring to your attention that a case was created for Sterling Lexicon.
+
+Company:  {!Account.Name} 
+Case:  {!Case.CaseNumber}:  {!Case.Subject} 
+Owner:  {!Case.OwnerFullName}  
+Priority: {!Case.Priority}
+
+Click on the link to access the case:  {!Case.Link}

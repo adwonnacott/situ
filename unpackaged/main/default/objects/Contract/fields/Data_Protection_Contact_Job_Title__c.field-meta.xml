@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Protection_Contact_Job_Title__c</fullName>
+    <description>The job title of the data protection contact within a business.</description>
+    <inlineHelpText>Provide the official job title of the data protection contact. Common titles include Data Protection Officer (DPO), Privacy Officer, or Compliance Manager.</inlineHelpText>
+    <label>Data Protection Contact Job Title</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

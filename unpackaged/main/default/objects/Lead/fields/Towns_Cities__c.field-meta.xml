@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Towns_Cities__c</fullName>
+    <inlineHelpText>Enter the town/city(s) in which the partner operates.</inlineHelpText>
+    <label>Towns/Cities</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

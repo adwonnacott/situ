@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Lost_Reason__c</fullName>
+    <label>Closed Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Personal Stay</fullName>
+                <default>false</default>
+                <label>Personal Stay</label>
+            </value>
+            <value>
+                <fullName>Duplicate Lead</fullName>
+                <default>false</default>
+                <label>Duplicate Lead</label>
+            </value>
+            <value>
+                <fullName>No Requirements Ever</fullName>
+                <default>false</default>
+                <label>No Requirements Ever</label>
+            </value>
+            <value>
+                <fullName>No Requirements Now</fullName>
+                <default>false</default>
+                <label>No Requirements Now</label>
+            </value>
+            <value>
+                <fullName>Lead Cold / Stopped Responding</fullName>
+                <default>false</default>
+                <label>Lead Cold / Stopped Responding</label>
+            </value>
+            <value>
+                <fullName>Budget</fullName>
+                <default>false</default>
+                <label>Budget</label>
+            </value>
+            <value>
+                <fullName>Length of Stay</fullName>
+                <default>false</default>
+                <label>Length of Stay</label>
+            </value>
+            <value>
+                <fullName>Left the Company</fullName>
+                <default>false</default>
+                <label>Left the Company</label>
+            </value>
+            <value>
+                <fullName>Not the Right Contact Within the Company</fullName>
+                <default>false</default>
+                <label>Not the Right Contact Within the Company</label>
+            </value>
+            <value>
+                <fullName>Failed_Due_Diligence</fullName>
+                <default>false</default>
+                <label>Failed Due Diligence</label>
+            </value>
+            <value>
+                <fullName>Location not required</fullName>
+                <default>false</default>
+                <label>Location not required</label>
+            </value>
+            <value>
+                <fullName>Less than 10 apartments/units</fullName>
+                <default>false</default>
+                <label>Less than 10 apartments/units</label>
+            </value>
+            <value>
+                <fullName>Unsatisfactory reviews</fullName>
+                <default>false</default>
+                <label>Unsatisfactory reviews</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Personal Stay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Duplicate Lead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>No Requirements Ever</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>No Requirements Now</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Lead Cold / Stopped Responding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Budget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Length of Stay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Left the Company</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Not the Right Contact Within the Company</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Failed_Due_Diligence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Location not required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Less than 10 apartments/units</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Unsatisfactory reviews</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Aparthotel</fullName>
+        <default>false</default>
+        <label>Aparthotel</label>
+    </customValue>
+    <customValue>
+        <fullName>SITU Co Living</fullName>
+        <default>false</default>
+        <label>SITU Co Living</label>
+    </customValue>
+    <customValue>
+        <fullName>Vacation Rental</fullName>
+        <default>false</default>
+        <label>Vacation Rental</label>
+    </customValue>
+    <customValue>
+        <fullName>Alternative Accommodation</fullName>
+        <default>false</default>
+        <label>Alternative Accommodation</label>
+    </customValue>
+    <customValue>
+        <fullName>Dedicated Apartment Building</fullName>
+        <default>false</default>
+        <label>Dedicated Apartment Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Mixed Use Apartment Building</fullName>
+        <default>false</default>
+        <label>Residential Building</label>
+    </customValue>
+    <customValue>
+        <fullName>SITU Bespoke</fullName>
+        <default>false</default>
+        <label>SITU Bespoke</label>
+    </customValue>
+    <customValue>
+        <fullName>Default</fullName>
+        <default>false</default>
+        <label>Not Set</label>
+    </customValue>
+    <masterLabel>Property Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

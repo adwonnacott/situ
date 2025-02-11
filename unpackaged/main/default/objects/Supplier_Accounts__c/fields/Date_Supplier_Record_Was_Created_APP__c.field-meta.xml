@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Supplier_Record_Was_Created_APP__c</fullName>
+    <description>Pulls create date from the SITU App. Used for 2 year trading history field.</description>
+    <label>Date Supplier Record Was Created (APP)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

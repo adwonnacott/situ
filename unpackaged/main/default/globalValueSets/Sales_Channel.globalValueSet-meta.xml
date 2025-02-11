@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Travel</fullName>
+        <default>false</default>
+        <label>Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Mobility</fullName>
+        <default>false</default>
+        <label>Mobility</label>
+    </customValue>
+    <customValue>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+        <label>Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Corporate</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Direct Corporate</label>
+    </customValue>
+    <customValue>
+        <fullName>SC - Partner&#39;s</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SC - Partner&#39;s</label>
+    </customValue>
+    <customValue>
+        <fullName>Leisure Stay</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Leisure Stay</label>
+    </customValue>
+    <customValue>
+        <fullName>Benelux</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Benelux</label>
+    </customValue>
+    <masterLabel>Team (Vertical)</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

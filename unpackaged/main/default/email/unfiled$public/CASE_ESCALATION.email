@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font size="7" style="font-family: arial; background-color: rgb(255, 255, 255);" color="#ff0000">!! </font><font style="font-family: arial; background-color: rgb(255, 255, 255);" color="#ff0000" size="6">CASE WAS ESCALATED</font><font size="7" style="font-family: arial; background-color: rgb(255, 255, 255);" color="#ff0000"> !!</font><div><div style=""><div style=""><br></div><div style=""><font face="arial" size="2">The following case has missed its milestone and was escalated:&nbsp;&nbsp;</font></div><div style=""><font face="arial" size="2">Company:&nbsp; {!Account.Name}&nbsp;</font></div><div style=""><font face="arial" size="2">Case:&nbsp; {!Case.CaseNumber}:&nbsp; {!Case.Subject}&nbsp;</font></div><div style=""><font face="arial" size="2">Owner:&nbsp; {!Case.OwnerFullName}&nbsp;&nbsp;</font></div><div style=""><font face="arial" size="2"><br></font></div><div style=""><font face="arial" size="2">Click on the link to access the case:&nbsp; {!Case.Link}</font></div></div></div>]]></td>
+</tr>
+</table>

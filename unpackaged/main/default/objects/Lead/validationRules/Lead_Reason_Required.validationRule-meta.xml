@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Reason_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(Status),
+TEXT(Status) = &quot;Closed&quot;,
+ISBLANK(TEXT(Closed_Lost_Reason__c))
+)</errorConditionFormula>
+    <errorMessage>Please select closed reason.</errorMessage>
+</ValidationRule>

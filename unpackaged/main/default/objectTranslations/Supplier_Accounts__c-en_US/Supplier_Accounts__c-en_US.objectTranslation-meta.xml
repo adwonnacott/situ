@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Supplier Accounts</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Supplier Accounts</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Supplier Accounts Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Last Year Bookings and Revenue --></label>
+            <section>Last Year Bookings and Revenue</section>
+        </sections>
+        <sections>
+            <label><!-- Live Availability --></label>
+            <section>Live Availability</section>
+        </sections>
+        <sections>
+            <label><!-- Monthly Bookings and Revenue --></label>
+            <section>Monthly Bookings and Revenue</section>
+        </sections>
+        <sections>
+            <label><!-- Quarterly Bookings and Revenue --></label>
+            <section>Quarterly Bookings and Revenue</section>
+        </sections>
+        <sections>
+            <label><!-- This Year Bookings and Revenue --></label>
+            <section>This Year Bookings and Revenue</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- SupplierID is required for every record. Please ensure it matches EXACTLY with the ID displayed in Core. This is the 6-digit number found in the URL of the supplier page in Core. --></errorMessage>
+        <name>SupplierID_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Refresh_Data --></label>
+        <name>Refresh_Data</name>
+    </webLinks>
+</CustomObjectTranslation>

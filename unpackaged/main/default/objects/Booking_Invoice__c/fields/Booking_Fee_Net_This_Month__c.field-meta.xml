@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Booking_Fee_Net_This_Month__c</fullName>
+    <formula>(Invoice_Rows_Booking_Fee_Net__c / (Period_End_Date__c - Period_Start_Date__c)) *
+
+IF(Number_Of_Days_This_Month__c &gt; 0, Number_Of_Days_This_Month__c, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Booking Fee Net This Month</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

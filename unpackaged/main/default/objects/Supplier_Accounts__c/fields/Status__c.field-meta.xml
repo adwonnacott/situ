@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>Not Set</label>
+            </value>
+            <value>
+                <fullName>Database Partner</fullName>
+                <default>false</default>
+                <label>Database Partner</label>
+            </value>
+            <value>
+                <fullName>Listing Partner</fullName>
+                <default>false</default>
+                <label>Listed Partner</label>
+            </value>
+            <value>
+                <fullName>SITU Assured</fullName>
+                <default>false</default>
+                <label>SITU Assured</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

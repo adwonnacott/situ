@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Malcolm_s_List</fullName>
+    <columns>NAME</columns>
+    <columns>Building_Stage__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Current_Notes__c</columns>
+    <columns>Priority__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Building_Stage__c</field>
+        <operation>equals</operation>
+        <value>Missing Copy</value>
+    </filters>
+    <label>Malcolm&#39;s List</label>
+</ListView>

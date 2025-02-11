@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trading_Name__c</fullName>
+    <description>The name a business operates under, if different from the legal entity name.</description>
+    <inlineHelpText>If the company operates under a different name than the legal entity name, please enter the trading name here. Otherwise, leave this field blank.</inlineHelpText>
+    <label>Trading Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

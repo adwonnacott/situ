@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Building Stage --></label>
+        <name>Building_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Copy Completed/Final Review</masterLabel>
+            <translation><!-- Copy Completed/Final Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Upload/Waiting for Supplier</masterLabel>
+            <translation><!-- Manual Upload/Waiting for Supplier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Copy</masterLabel>
+            <translation><!-- Missing Copy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Information</masterLabel>
+            <translation><!-- Missing Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visible</masterLabel>
+            <translation><!-- Visible --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Record_Type__c</fullName>
+    <label>Lead Sub-Record Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Serviced Accommodation (Situ Standard)</fullName>
+                <default>false</default>
+                <label>Serviced Accommodation (Situ Standard)</label>
+            </value>
+            <value>
+                <fullName>Stays.co.uk Lead</fullName>
+                <default>false</default>
+                <label>Stays.co.uk Lead</label>
+            </value>
+            <value>
+                <fullName>Vacation Rental</fullName>
+                <default>false</default>
+                <label>Vacation Rental</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

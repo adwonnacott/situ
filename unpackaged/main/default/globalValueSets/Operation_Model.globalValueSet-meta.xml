@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Owner/Operator</fullName>
+        <default>false</default>
+        <label>Owner/Operator</label>
+    </customValue>
+    <customValue>
+        <fullName>Agency</fullName>
+        <default>false</default>
+        <label>Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Hybrid</fullName>
+        <default>false</default>
+        <label>Hybrid</label>
+    </customValue>
+    <description>These are the different Operation Model&#39;s our partners use.</description>
+    <masterLabel>Operation Model</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

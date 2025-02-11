@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Special_Terms</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Custom_Contract__c , ISBLANK( SpecialTerms ))</errorConditionFormula>
+    <errorMessage>Special Terms must be filled out when Custom Contract is checked.</errorMessage>
+</ValidationRule>

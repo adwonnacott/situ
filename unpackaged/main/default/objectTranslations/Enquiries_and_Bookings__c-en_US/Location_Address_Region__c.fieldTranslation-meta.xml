@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Region for the Location Address e.g. Greater London or Devon --></help>
+        <label><!-- Region --></label>
+        <name>Location_Address_Region__c</name>
+    </CustomFieldTranslation>

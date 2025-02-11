@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buildings_detailed</fullName>
+    <fields>Name</fields>
+    <fields>Supplier_Accounts__c</fields>
+    <fields>Building_Stage__c</fields>
+    <fields>Total_Units__c</fields>
+    <fields>Visible_on_Website__c</fields>
+    <fields>SITU_Listing__c</fields>
+    <fields>Live_Availability__c</fields>
+    <label>Buildings Detailed</label>
+</CompactLayout>

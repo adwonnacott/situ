@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StatusNotClosed</fullName>
+    <active>true</active>
+    <description>Checks if status is closed on creation</description>
+    <errorConditionFormula>AND(
+    ISNEW(),
+     ISPICKVAL(Status, &quot;Closed&quot;) 
+)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>You need to mark the status as New or In Progress</errorMessage>
+</ValidationRule>

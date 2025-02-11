@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Personal_Response_Time_Achieved__c</fullName>
+    <description>Total time in minutes to quote enquiries over month</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total time in minutes to quote enquiries over month</inlineHelpText>
+    <label>Personal Response Time Achieved</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

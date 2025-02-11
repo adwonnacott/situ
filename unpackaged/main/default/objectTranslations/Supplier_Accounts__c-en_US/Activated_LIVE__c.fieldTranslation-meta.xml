@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please only set this to &quot;true&quot; if you know what you are doing! If unsure, contact your administrator ! --></help>
+        <label><!-- Activated LIVE! --></label>
+        <name>Activated_LIVE__c</name>
+    </CustomFieldTranslation>

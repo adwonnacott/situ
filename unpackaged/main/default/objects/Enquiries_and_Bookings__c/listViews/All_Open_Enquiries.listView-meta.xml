@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Open_Enquiries</fullName>
+    <columns>NAME</columns>
+    <columns>Owner_Name__c</columns>
+    <columns>Account__c</columns>
+    <columns>Enquiry_Status__c</columns>
+    <columns>Enquiry_Source__c</columns>
+    <columns>Guest__c</columns>
+    <columns>Check_In_Date__c</columns>
+    <columns>Check_Out_Date__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Created_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Enquiry_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed Booked,Closed Lost,Cancelled,Incomplete</value>
+    </filters>
+    <label>All Open Enquiries</label>
+</ListView>

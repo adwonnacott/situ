@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Effectiveness_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>VALUE(BLANKVALUE(TEXT(Greeting_and_Introduction__c), &#39;0&#39;))+
+VALUE(BLANKVALUE(TEXT(Language__c), &#39;0&#39;))+
+VALUE(BLANKVALUE(TEXT(Control__c), &#39;0&#39;))+
+VALUE(BLANKVALUE(TEXT(Tone_of_Voice__c), &#39;0&#39;))+
+VALUE(BLANKVALUE(TEXT(Pacing__c), &#39;0&#39;))+
+VALUE(BLANKVALUE(TEXT(Attitude__c), &#39;0&#39;))+
+VALUE(BLANKVALUE(TEXT(Questioning__c), &#39;0&#39;))+
+VALUE(BLANKVALUE(TEXT(Product_Knowledge__c), &#39;0&#39;))+
+VALUE(BLANKVALUE(TEXT(Negotiation__c), &#39;0&#39;))+
+VALUE(BLANKVALUE(TEXT(Urgency_and_Closing__c), &#39;0&#39;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Call Effectiveness Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Terms__c</fullName>
+    <label>Payment Terms</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SupplierPaymentNotSet</fullName>
+                <default>true</default>
+                <label>No Supplier Payment Terms Set</label>
+            </value>
+            <value>
+                <fullName>SupplierPaymentDueOnReceipt</fullName>
+                <default>false</default>
+                <label>Due upon receipt</label>
+            </value>
+            <value>
+                <fullName>SupplierPaymentDueWithin7Days</fullName>
+                <default>false</default>
+                <label>Payment Due within 7 Days</label>
+            </value>
+            <value>
+                <fullName>SupplierPaymentDueWithin14Days</fullName>
+                <default>false</default>
+                <label>Payment Due within 14 Days</label>
+            </value>
+            <value>
+                <fullName>SupplierPaymentDueWithin30Days</fullName>
+                <default>false</default>
+                <label>Payment Due within 30 Days</label>
+            </value>
+            <value>
+                <fullName>SupplierPaymentDueWithin45Days</fullName>
+                <default>false</default>
+                <label>Payment Due within 45 Days</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

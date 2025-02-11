@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- SLA Timer Enquiry to Quote --></label>
+        <name>SLA_Timer_Enquiry_to_Quote__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Set</fullName>
+                <default>false</default>
+                <label>Not Set</label>
+            </value>
+            <value>
+                <fullName>Database Partner</fullName>
+                <default>false</default>
+                <label>Database Partner</label>
+            </value>
+            <value>
+                <fullName>Listed Partner</fullName>
+                <default>false</default>
+                <label>Listed Partner</label>
+            </value>
+            <value>
+                <fullName>SITU Assured</fullName>
+                <default>false</default>
+                <label>SITU Assured</label>
+            </value>
+            <value>
+                <fullName>Default</fullName>
+                <default>false</default>
+                <label>Default</label>
+            </value>
+            <value>
+                <fullName>Listing Partner</fullName>
+                <default>false</default>
+                <label>Listing Partner</label>
+            </value>
+            <value>
+                <fullName>DESTINATION</fullName>
+                <default>false</default>
+                <label>DESTINATION</label>
+            </value>
+            <value>
+                <fullName>New Not Visited</fullName>
+                <default>false</default>
+                <label>New Not Visited</label>
+            </value>
+            <value>
+                <fullName>New Visited</fullName>
+                <default>false</default>
+                <label>New Visited</label>
+            </value>
+            <value>
+                <fullName>Do Not Contact</fullName>
+                <default>false</default>
+                <label>Do Not Contact</label>
+            </value>
+            <value>
+                <fullName>Trusted Not Yet Visited</fullName>
+                <default>false</default>
+                <label>Trusted Not Yet Visited</label>
+            </value>
+            <value>
+                <fullName>Tier 1</fullName>
+                <default>false</default>
+                <label>Tier 1</label>
+            </value>
+            <value>
+                <fullName>Tier 2</fullName>
+                <default>false</default>
+                <label>Tier 2</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Account Stage --></label>
+        <name>Account_Stage_Path__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding Content Legacy Supplier</masterLabel>
+            <translation><!-- Onboarding Content Legacy Supplier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding Content New Supplier</masterLabel>
+            <translation><!-- Onboarding Content New Supplier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding Terms</masterLabel>
+            <translation><!-- Onboarding Terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parked</masterLabel>
+            <translation><!-- Parked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Onboard</masterLabel>
+            <translation><!-- To Onboard --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

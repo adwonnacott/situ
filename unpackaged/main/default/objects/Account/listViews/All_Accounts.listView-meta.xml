@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Accounts</fullName>
+    <columns>Account_ID_Number__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>Cost_Centre__c</columns>
+    <columns>Sales_Channel__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Account_Status__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>Forecast_Annual_Revenue__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Current_Notes__c</columns>
+    <columns>Date_of_Last_Note__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>New Client,Existing Client,Client at Risk</value>
+    </filters>
+    <label>All Client Accounts</label>
+</ListView>

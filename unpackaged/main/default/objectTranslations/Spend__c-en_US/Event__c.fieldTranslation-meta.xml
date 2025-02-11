@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select the type of event this spend is related too. --></help>
+        <label><!-- Event --></label>
+        <name>Event__c</name>
+        <picklistValues>
+            <masterLabel>Conference</masterLabel>
+            <translation><!-- Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Gifting</masterLabel>
+            <translation><!-- Corporate Gifting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fam Trip</masterLabel>
+            <translation><!-- Fam Trip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Campaign</masterLabel>
+            <translation><!-- Marketing Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Networking</masterLabel>
+            <translation><!-- Networking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offsite Meeting</masterLabel>
+            <translation><!-- Offsite Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplier Event</masterLabel>
+            <translation><!-- Supplier Event --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

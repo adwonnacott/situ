@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Enquiry to Quote Time in Business Mins --></label>
+        <name>Enquiry_to_Quote_Time_in_Business_Mins__c</name>
+    </CustomFieldTranslation>

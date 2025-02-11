@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Accreditations_Other__c</fullName>
+    <description>Captures additional accreditations not included in the predefined list.</description>
+    <inlineHelpText>Enter details of any other accreditations the partner has achieved that are not included in the predefined options.</inlineHelpText>
+    <label>Partner Accreditations (Other)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

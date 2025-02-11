@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Associations_Membership__c</fullName>
+    <description>Lists the associations and industry organisations the partner is a member of.</description>
+    <inlineHelpText>Select all associations the partner is affiliated with. If &#39;Other&#39; is selected, provide details in the &#39;Other&#39; field.</inlineHelpText>
+    <label>Partner Associations Membership</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ASAP (The Association of Serviced Apartment Providers)</fullName>
+                <default>false</default>
+                <label>ASAP (The Association of Serviced Apartment Providers)</label>
+            </value>
+            <value>
+                <fullName>CHPA (The Corporate Housing Providers Association)</fullName>
+                <default>false</default>
+                <label>CHPA (The Corporate Housing Providers Association)</label>
+            </value>
+            <value>
+                <fullName>HBAA (The Hotel Booking Agents Association)</fullName>
+                <default>false</default>
+                <label>HBAA (The Hotel Booking Agents Association)</label>
+            </value>
+            <value>
+                <fullName>ITM (The Institute of Travel Management)</fullName>
+                <default>false</default>
+                <label>ITM (The Institute of Travel Management)</label>
+            </value>
+            <value>
+                <fullName>PASC UK (The Professional Association of Self-Caterers UK)</fullName>
+                <default>false</default>
+                <label>PASC UK (The Professional Association of Self-Caterers UK)</label>
+            </value>
+            <value>
+                <fullName>ASSC (The Association of Scotland&#39;s Self-Caterers)</fullName>
+                <default>false</default>
+                <label>ASSC (The Association of Scotland&#39;s Self-Caterers)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Property_Management_Systems__c</fullName>
+    <description>Tracks the property management systems (PMS) used by the partner, selected from a global list.</description>
+    <inlineHelpText>Select the property management system (PMS) the partner uses. If not listed, specify details in the &#39;Other&#39; field.</inlineHelpText>
+    <label>Property Management Systems</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Property_Management_Systems</valueSetName>
+    </valueSet>
+</CustomField>

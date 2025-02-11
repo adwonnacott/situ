@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Testing embedded questions</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Ardira Survey Assignment Notification - With Embedded Question - V2</name>
+    <style>none</style>
+    <subject>{!ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Survey__c} assigned for your participation</subject>
+    <textOnly>Survey Assignment Notification
+
+Dear {!IF(NOT(ISBLANK(ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Assigned_To_User__c)), ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Assigned_To_User__c, 	IF(NOT(ISBLANK(ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Assigned_To_Contact__c)), ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Assigned_To_Contact__c, 	IF(NOT(ISBLANK(ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Target_Record_Name__c)), ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Target_Record_Name__c, 	ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Assigned_To_Email__c)) )},
+
+You have been assigned the survey {!ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Survey__c}.
+
+
+You can respond by clicking the below link or button
+
+Start Survey
+
+{!ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Record_Edit_URL__c}
+
+Thank you,
+
+Ardira SurveyVista
+
+Please do not forward this email as its survey link is unique to you.
+Powered by Ardira SurveyVista</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

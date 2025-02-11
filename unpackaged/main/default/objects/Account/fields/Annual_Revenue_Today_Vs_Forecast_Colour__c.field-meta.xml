@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Revenue_Today_Vs_Forecast_Colour__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(   Actual_Revenue_Versus_Target_Today__c    &lt;=  0,
+IMAGE(&quot;/img/samples/color_red.gif&quot;, &quot;red&quot;, 30, 30),
+IMAGE(&quot;/img/samples/color_green.gif&quot;, &quot;green&quot;, 30, 30)
+)+&quot;Current Annual Performance Today&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Annual Revenue Today Vs Forecast Colour</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

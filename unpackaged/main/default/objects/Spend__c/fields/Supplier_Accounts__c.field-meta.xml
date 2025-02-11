@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Accounts__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <inlineHelpText>Select the supplier account this spend is related too.</inlineHelpText>
+    <label>Supplier Accounts</label>
+    <referenceTo>Supplier_Accounts__c</referenceTo>
+    <relationshipLabel>Spends</relationshipLabel>
+    <relationshipName>Spends</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

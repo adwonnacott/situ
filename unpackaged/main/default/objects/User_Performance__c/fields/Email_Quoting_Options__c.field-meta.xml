@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Quoting_Options__c</fullName>
+    <description>Are the options well thought out, relevant and suitable to the enquiries?  Do all of the links work?  Are distances included with maps?</description>
+    <inlineHelpText>Are the options well thought out, relevant and suitable to the enquiries?  Do all of the links work?  Are distances included with maps?</inlineHelpText>
+    <label>Email / Quoting Options</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Score</valueSetName>
+    </valueSet>
+</CustomField>

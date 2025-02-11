@@ -1,0 +1,9 @@
+*** CASE STILL NOT CLOSED***  
+
+You marked this case resolved a while ago, but you still haven't closed it. Please make sure that you mark the case closed. 
+
+Company:  {!Account.Name} 
+Case:  {!Case.CaseNumber}:  {!Case.Subject} 
+Owner:  {!Case.OwnerFullName}  
+
+Click on the link to access the case:  {!Case.Link}

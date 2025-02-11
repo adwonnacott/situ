@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCM_Supplier_Leads_Unassigned</fullName>
+    <columns>LEAD.STATUS</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.URL</columns>
+    <columns>Total_Apartments_Units__c</columns>
+    <columns>Towns_Cities__c</columns>
+    <columns>Countries__c</columns>
+    <columns>Property_Management_Systems__c</columns>
+    <columns>Channel_Managers__c</columns>
+    <columns>Current_Notes__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Partner_Leads</value>
+    </filters>
+    <filters>
+        <field>Total_Apartments_Units__c</field>
+        <operation>notEqual</operation>
+        <value>0-9</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed Parked</value>
+    </filters>
+    <label>Partner Leads - Unassigned</label>
+    <queue>Unassigned_Partner_Leads</queue>
+</ListView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Property_Type__c</fullName>
+    <label>Property Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aparthotel</fullName>
+                <default>false</default>
+                <label>Aparthotel</label>
+            </value>
+            <value>
+                <fullName>SITU Co Living</fullName>
+                <default>false</default>
+                <label>SITU Co Living</label>
+            </value>
+            <value>
+                <fullName>Vacation Rental</fullName>
+                <default>false</default>
+                <label>Vacation Rental</label>
+            </value>
+            <value>
+                <fullName>Alternative Accommodation</fullName>
+                <default>false</default>
+                <label>Alternative Accommodation</label>
+            </value>
+            <value>
+                <fullName>Dedicated Apartment Building</fullName>
+                <default>false</default>
+                <label>Dedicated Apartment Building</label>
+            </value>
+            <value>
+                <fullName>Residential Building</fullName>
+                <default>false</default>
+                <label>Residential Building</label>
+            </value>
+            <value>
+                <fullName>SITU Bespoke</fullName>
+                <default>false</default>
+                <label>SITU Bespoke</label>
+            </value>
+            <value>
+                <fullName>Not Set</fullName>
+                <default>false</default>
+                <label>Not Set</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

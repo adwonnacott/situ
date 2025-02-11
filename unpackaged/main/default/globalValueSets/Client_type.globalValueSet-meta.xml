@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>RMC</fullName>
+        <default>false</default>
+        <label>RMC</label>
+    </customValue>
+    <customValue>
+        <fullName>TMC</fullName>
+        <default>false</default>
+        <label>TMC</label>
+    </customValue>
+    <customValue>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+        <label>Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Housing Association</fullName>
+        <default>false</default>
+        <label>Housing Association</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Corp (Domestic)</fullName>
+        <default>false</default>
+        <label>Direct Corp (Domestic)</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Corp (International)</fullName>
+        <default>false</default>
+        <label>Direct Corp (International)</label>
+    </customValue>
+    <customValue>
+        <fullName>Construction</fullName>
+        <default>false</default>
+        <label>Construction</label>
+    </customValue>
+    <customValue>
+        <fullName>Media Production</fullName>
+        <default>false</default>
+        <label>Media Production</label>
+    </customValue>
+    <masterLabel>Client type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

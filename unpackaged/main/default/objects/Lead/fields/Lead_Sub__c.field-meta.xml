@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Sub__c</fullName>
+    <inlineHelpText>Select the person who managed the lead through the onboarding process.</inlineHelpText>
+    <label>Lead Sub-Owner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Jasmine Tavakoli</fullName>
+                <default>false</default>
+                <label>Jasmine Tavakoli</label>
+            </value>
+            <value>
+                <fullName>Sam Davies</fullName>
+                <default>false</default>
+                <label>Sam Davies</label>
+            </value>
+            <value>
+                <fullName>Stewart Black</fullName>
+                <default>false</default>
+                <label>Stewart Black</label>
+            </value>
+            <value>
+                <fullName>Conar Pearson</fullName>
+                <default>false</default>
+                <label>Conar Pearson</label>
+            </value>
+            <value>
+                <fullName>Monika Meel</fullName>
+                <default>false</default>
+                <label>Monika Meel</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

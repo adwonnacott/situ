@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Studio</fullName>
+        <default>true</default>
+        <label>Studio</label>
+    </customValue>
+    <customValue>
+        <fullName>1 Bed/1 Bath</fullName>
+        <default>false</default>
+        <label>1 Bed/1 Bath</label>
+    </customValue>
+    <customValue>
+        <fullName>2 Bed/1 Bath</fullName>
+        <default>false</default>
+        <label>2 Bed/1 Bath</label>
+    </customValue>
+    <customValue>
+        <fullName>2 Bed/2 Bath</fullName>
+        <default>false</default>
+        <label>2 Bed/2 Bath</label>
+    </customValue>
+    <customValue>
+        <fullName>3 Bed/1 Bath</fullName>
+        <default>false</default>
+        <label>3 Bed/1 Bath</label>
+    </customValue>
+    <customValue>
+        <fullName>3 Bed/2 Bath</fullName>
+        <default>false</default>
+        <label>3 Bed/2 Bath</label>
+    </customValue>
+    <customValue>
+        <fullName>3 Bed/3 Bath</fullName>
+        <default>false</default>
+        <label>3 Bed/3 Bath</label>
+    </customValue>
+    <customValue>
+        <fullName>FourPlusBedroom</fullName>
+        <default>false</default>
+        <label>4 Bed +</label>
+    </customValue>
+    <customValue>
+        <fullName>OneBedroom</fullName>
+        <default>false</default>
+        <label>One Bedroom</label>
+    </customValue>
+    <customValue>
+        <fullName>TwoBedroom</fullName>
+        <default>false</default>
+        <label>Two Bedroom</label>
+    </customValue>
+    <customValue>
+        <fullName>ThreeBedroom</fullName>
+        <default>false</default>
+        <label>Three Bedroom</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplex</fullName>
+        <default>false</default>
+        <label>Duplex</label>
+    </customValue>
+    <customValue>
+        <fullName>Penthouse</fullName>
+        <default>false</default>
+        <label>Penthouse</label>
+    </customValue>
+    <masterLabel>Unit Size</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

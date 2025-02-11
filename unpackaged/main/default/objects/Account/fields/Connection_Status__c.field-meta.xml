@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Connection_Status__c</fullName>
+    <description>Indicates whether the partner is live via an integration or in progress.</description>
+    <inlineHelpText>Select the connection status to track the partner’s integration status with Situ.</inlineHelpText>
+    <label>Connection Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Connected</fullName>
+                <default>false</default>
+                <label>Not Connected</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Live</fullName>
+                <default>false</default>
+                <label>Live</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

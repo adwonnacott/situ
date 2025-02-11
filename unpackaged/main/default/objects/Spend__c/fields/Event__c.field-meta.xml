@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event__c</fullName>
+    <inlineHelpText>Select the type of event this spend is related too.</inlineHelpText>
+    <label>Event</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>Offsite Meeting</fullName>
+                <default>false</default>
+                <label>Offsite Meeting</label>
+            </value>
+            <value>
+                <fullName>Networking</fullName>
+                <default>false</default>
+                <label>Networking</label>
+            </value>
+            <value>
+                <fullName>Corporate Gifting</fullName>
+                <default>false</default>
+                <label>Corporate Gifting</label>
+            </value>
+            <value>
+                <fullName>Marketing Campaign</fullName>
+                <default>false</default>
+                <label>Marketing Campaign</label>
+            </value>
+            <value>
+                <fullName>Supplier Event</fullName>
+                <default>false</default>
+                <label>Supplier Event</label>
+            </value>
+            <value>
+                <fullName>Fam Trip</fullName>
+                <default>false</default>
+                <label>Fam Trip</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

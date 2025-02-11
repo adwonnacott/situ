@@ -1,0 +1,9 @@
+*** CASE ESCALATION ALERT ***  
+
+The following medium priority case has missed its milestone 2 hours ago. It was escalated and Senior Managers were notified. As it still unresolved it now needs your attention. 
+
+Company:  {!Account.Name} 
+Case:  {!Case.CaseNumber}:  {!Case.Subject} 
+Owner:  {!Case.OwnerFullName}  
+
+Click on the link to access the case:  {!Case.Link}

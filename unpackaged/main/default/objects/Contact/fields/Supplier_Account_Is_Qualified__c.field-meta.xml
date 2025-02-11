@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Account_Is_Qualified__c</fullName>
+    <formula>Supplier_Accounts__r.Is_Qualified__c</formula>
+    <label>Supplier Account Is Qualified ?</label>
+    <type>Checkbox</type>
+</CustomField>

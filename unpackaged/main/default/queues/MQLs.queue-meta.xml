@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>MQLs</name>
+    <queueMembers>
+        <users>
+            <user>ainsley.ford@situ.co.uk</user>
+            <user>amanda.mott@situ.co.uk</user>
+            <user>ashley.wonnacott@situ.co.uk</user>
+            <user>b2bmaintegration@00d4k0000018dyzuay.ext</user>
+            <user>charlie.carr@situ.co.uk</user>
+            <user>charlotte.harris@situ.co.uk</user>
+            <user>conar.pearson@situ.co.uk</user>
+            <user>davin.broadbent@situ.co.uk</user>
+            <user>integration@00d4k0000018dyzuay.com</user>
+            <user>jackie.kirk@situ.co.uk</user>
+            <user>james.connell@staysitu.com</user>
+            <user>joe.briggs@staysitu.com</user>
+            <user>mike.ennals@situ.co.uk</user>
+            <user>nathan.lovegrove@staysitu.com</user>
+            <user>pamela.lambden@staysitu.com</user>
+            <user>phil.stapleton@staysitu.com</user>
+            <user>rhiannon.lewis@situ.co.uk</user>
+            <user>roberto.alessandrelli@situ.co.uk</user>
+            <user>ross.welham@staysitu.com</user>
+            <user>insightssecurity@00d4k0000018dyzuay.com</user>
+            <user>tamara.edgar@staysitu.com</user>
+            <user>web.services@situ.co.uk</user>
+            <user>yolanda.blomjous@staysitu.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Period_Review_Date__c</fullName>
+    <description>Put the last date of the month the review if for.  For example, if you are reviewing performance of May but the actual date is in June you would enter 31/05</description>
+    <inlineHelpText>Put the last date of the month the review if for.  For example, if you are reviewing performance of May but the actual date is in June you would enter 31/05</inlineHelpText>
+    <label>Period Review Date</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

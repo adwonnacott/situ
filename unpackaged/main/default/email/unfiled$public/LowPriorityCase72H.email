@@ -1,0 +1,9 @@
+*** LOW PRIORITY CASE IS STILL UNRESOLVED AND IT IS NOW ESCALATED ***  
+
+ It has been 72 hours since a low priority case was created, but it still is not Partially Resolved. The case is now escalated. All Senior Managers are notified. 
+
+Company:  {!Account.Name} 
+Case:  {!Case.CaseNumber}:  {!Case.Subject} 
+Owner:  {!Case.OwnerFullName}  
+
+Click on the link to access the case:  {!Case.Link}

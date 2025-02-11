@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Associations_Membership_Is_Other__c</fullName>
+    <description>This checkbox is automatically selected when the value &#39;Other&#39; is included in the Partner Associations Membership multi-select picklist. It is used to control the visibility of the &#39;Other&#39; details field on the page layout.</description>
+    <formula>INCLUDES(Partner_Associations_Membership__c, &quot;Other&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This checkbox indicates that &#39;Other&#39; has been selected in the Partner Associations Membership picklist. It is used for conditional visibility to display additional details when applicable. Users do not need to update this field manually.</inlineHelpText>
+    <label>Partner Associations Membership Is Other</label>
+    <type>Checkbox</type>
+</CustomField>

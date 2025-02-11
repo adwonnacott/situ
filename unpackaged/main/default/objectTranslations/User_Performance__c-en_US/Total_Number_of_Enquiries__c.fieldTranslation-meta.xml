@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total number of enquiries handled in the month we are reporting on --></help>
+        <label><!-- Total Number of Enquiries --></label>
+        <name>Total_Number_of_Enquiries__c</name>
+    </CustomFieldTranslation>

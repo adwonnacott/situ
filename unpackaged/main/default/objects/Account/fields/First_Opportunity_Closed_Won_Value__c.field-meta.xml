@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Opportunity_Closed_Won_Value__c</fullName>
+    <formula>IF(NOT(ISBLANK( First_Opportunity_Closed_Won__c )),TRUE,FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>First Opportunity Closed Won Value</label>
+    <type>Checkbox</type>
+</CustomField>

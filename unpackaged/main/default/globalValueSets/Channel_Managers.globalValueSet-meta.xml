@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Cendyn</fullName>
+        <default>false</default>
+        <label>Cendyn</label>
+    </customValue>
+    <customValue>
+        <fullName>DerbySoft</fullName>
+        <default>false</default>
+        <label>DerbySoft</label>
+    </customValue>
+    <customValue>
+        <fullName>Guesty</fullName>
+        <default>false</default>
+        <label>Guesty</label>
+    </customValue>
+    <customValue>
+        <fullName>Hostaway</fullName>
+        <default>false</default>
+        <label>Hostaway</label>
+    </customValue>
+    <customValue>
+        <fullName>Lavanda</fullName>
+        <default>false</default>
+        <label>Lavanda</label>
+    </customValue>
+    <customValue>
+        <fullName>Lodgify</fullName>
+        <default>false</default>
+        <label>Lodgify</label>
+    </customValue>
+    <customValue>
+        <fullName>NextPax</fullName>
+        <default>false</default>
+        <label>NextPax</label>
+    </customValue>
+    <customValue>
+        <fullName>Proprietary technology</fullName>
+        <default>false</default>
+        <label>Proprietary technology</label>
+    </customValue>
+    <customValue>
+        <fullName>RateGain</fullName>
+        <default>false</default>
+        <label>RateGain</label>
+    </customValue>
+    <customValue>
+        <fullName>Rentals United</fullName>
+        <default>false</default>
+        <label>Rentals United</label>
+    </customValue>
+    <customValue>
+        <fullName>res:harmonics</fullName>
+        <default>false</default>
+        <label>res:harmonics</label>
+    </customValue>
+    <customValue>
+        <fullName>SHR (an Access company)</fullName>
+        <default>false</default>
+        <label>SHR (an Access company)</label>
+    </customValue>
+    <customValue>
+        <fullName>SiteMinder</fullName>
+        <default>false</default>
+        <label>SiteMinder</label>
+    </customValue>
+    <customValue>
+        <fullName>Smoobu</fullName>
+        <default>false</default>
+        <label>Smoobu</label>
+    </customValue>
+    <customValue>
+        <fullName>STAAH</fullName>
+        <default>false</default>
+        <label>STAAH</label>
+    </customValue>
+    <customValue>
+        <fullName>SynXis</fullName>
+        <default>false</default>
+        <label>SynXis</label>
+    </customValue>
+    <customValue>
+        <fullName>Tokeet</fullName>
+        <default>false</default>
+        <label>Tokeet</label>
+    </customValue>
+    <customValue>
+        <fullName>Uplisting</fullName>
+        <default>false</default>
+        <label>Uplisting</label>
+    </customValue>
+    <customValue>
+        <fullName>Do not use one</fullName>
+        <default>false</default>
+        <label>Do not use one</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>This is a list of the main Channel Managers Situ Partners use.</description>
+    <masterLabel>Channel Managers</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

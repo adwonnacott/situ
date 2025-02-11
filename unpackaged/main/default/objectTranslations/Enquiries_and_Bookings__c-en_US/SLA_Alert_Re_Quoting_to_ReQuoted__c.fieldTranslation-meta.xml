@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- SLA Alert Re Quoting to ReQuoted --></label>
+        <name>SLA_Alert_Re_Quoting_to_ReQuoted__c</name>
+    </CustomFieldTranslation>

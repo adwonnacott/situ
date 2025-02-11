@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Do emails contain good relevant recommendations? --></help>
+        <label><!-- Email / Quoting Recommendations --></label>
+        <name>Email_Quoting_Recommendations__c</name>
+    </CustomFieldTranslation>

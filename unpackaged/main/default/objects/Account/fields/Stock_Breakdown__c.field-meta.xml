@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stock_Breakdown__c</fullName>
+    <description>Provides a summary or breakdown of the partner’s property stock, such as unit type or quantity.</description>
+    <inlineHelpText>Enter details about the partner’s stock, such as unit types and their quantities.</inlineHelpText>
+    <label>Stock Breakdown</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

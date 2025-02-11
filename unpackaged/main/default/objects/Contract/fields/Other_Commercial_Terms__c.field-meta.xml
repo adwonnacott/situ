@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Commercial_Terms__c</fullName>
+    <description>This is for detailing any other commercial terms agreed as a part of the contract.</description>
+    <inlineHelpText>This is for detailing any other commercial terms agreed as a part of the contract.</inlineHelpText>
+    <label>Other Commercial Terms</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

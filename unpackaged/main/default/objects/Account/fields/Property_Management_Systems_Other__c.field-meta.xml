@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Property_Management_Systems_Other__c</fullName>
+    <description>Captures additional property management systems not included in the predefined global list.</description>
+    <inlineHelpText>Enter details of any other property management systems used by the partner that are not included in the global list.</inlineHelpText>
+    <label>Property Management Systems (Other)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <decisions>
+        <name>Does_it_have_Reservation_contact</name>
+        <label>Does it have Reservation contact?</label>
+        <locationX>182</locationX>
+        <locationY>335</locationY>
+        <defaultConnectorLabel>End flow</defaultConnectorLabel>
+        <rules>
+            <name>check_reservations</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Reservations_Contact__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_suppliers</targetReference>
+            </connector>
+            <label>Does it have Reservation contact?</label>
+        </rules>
+    </decisions>
+    <description>Populates supplier accounts and buildings records with reservations email to use for email automations</description>
+    <interviewLabel>Supp Contact to Supp Account {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Supp Contact to Supp Account and building</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_suppliers</name>
+        <label>Get suppliers</label>
+        <locationX>50</locationX>
+        <locationY>575</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Update_buildings</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Supplier_Account_Name__r.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Supplier_Accounts__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_buildings</name>
+        <label>Update buildings</label>
+        <locationX>50</locationX>
+        <locationY>695</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Supplier_Accounts__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_suppliers.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Main_Contact__c</field>
+            <value>
+                <elementReference>Get_suppliers.Main_Contact_Email__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Supplier_Buildings__c</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_suppliers</name>
+        <label>Update suppliers</label>
+        <locationX>50</locationX>
+        <locationY>455</locationY>
+        <connector>
+            <targetReference>Get_suppliers</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Supplier_Account_Name__r.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Main_Contact_Email__c</field>
+            <value>
+                <elementReference>$Record.Email__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Supplier_Accounts__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Does_it_have_Reservation_contact</targetReference>
+        </connector>
+        <object>Supplier_Contacts__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

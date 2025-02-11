@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SITU_EMEA_Construction_Infra</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Cost_Centre__c</columns>
+    <columns>Sales_Channel__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Account_Status__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>Forecast_Annual_Revenue__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Current_Notes__c</columns>
+    <columns>Date_of_Last_Note__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Cost_Centre__c</field>
+        <operation>notEqual</operation>
+        <value>Aqora,SITU Benelux</value>
+    </filters>
+    <filters>
+        <field>Sales_Channel__c</field>
+        <operation>equals</operation>
+        <value>Construction &amp; Infrastructure</value>
+    </filters>
+    <label>SITU EMEA - Construction &amp; Infra</label>
+</ListView>

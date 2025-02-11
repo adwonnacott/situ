@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Unassigned Prospect Leads</name>
+    <queueMembers>
+        <users>
+            <user>b2bmaintegration@00d4k0000018dyzuay.ext</user>
+            <user>jackie.kirk@situ.co.uk</user>
+            <user>nathan.lovegrove@staysitu.com</user>
+            <user>phil.stapleton@staysitu.com</user>
+            <user>rhiannon.lewis@situ.co.uk</user>
+            <user>tamara.edgar@staysitu.com</user>
+            <user>yolanda.blomjous@staysitu.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

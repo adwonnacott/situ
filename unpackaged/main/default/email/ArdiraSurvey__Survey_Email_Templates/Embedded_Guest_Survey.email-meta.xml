@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>This email template is used to notify guests about survey Embedded</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Embedded Guest Survey</name>
+    <style>none</style>
+    <subject>Help us Improve! Rate Your Stay | SITU Serviced Apartments</subject>
+    <textOnly>Dear guest,  Help us improve our service by rating your stay!  Submitting a rating will take less than a minute and helps us continue to deliver the best service to our guests.  {!SUBSTITUTE(ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Email_Embedded_Question_Preview__c, &quot;https://www.ardira.com?&quot;, ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Response_URL__c&amp;&quot;&amp;&quot;)}   Start the survey by clicking the link below.  {!ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Record_Edit_URL__c}  Thank you,  Best regards, SITU Serviced Apartments</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Contact_DNC__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether the partner has been marked as Do Not Contact. This is typically used for internal purposes, such as service recovery, to ensure no outreach is made.</description>
+    <inlineHelpText>Tick this checkbox to mark the partner as Do Not Contact (DNC).
+
+When checked: The partner is flagged as DNC, and no outreach should be made by the team. Contact the Account Owner with any questions.
+When unchecked: The partner is not flagged and can be contacted as normal.</inlineHelpText>
+    <label>Do Not Contact (DNC)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

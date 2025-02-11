@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RED_2</fullName>
+    <columns>CONTRACT.CONTRACT_NUMBER</columns>
+    <columns>Supplier_Accounts__c</columns>
+    <columns>CONTRACT.STATUS</columns>
+    <columns>Risk_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTRACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contract.Supplier_Contracts</value>
+    </filters>
+    <filters>
+        <field>Risk_Status__c</field>
+        <operation>equals</operation>
+        <value>RED2 [CAT1]</value>
+    </filters>
+    <filters>
+        <field>Signed_on_Related_Account__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>RED 2</label>
+</ListView>

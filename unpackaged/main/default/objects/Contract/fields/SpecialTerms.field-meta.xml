@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SpecialTerms</fullName>
+    <inlineHelpText>Please provide any specific conditions, clauses, or additional terms that apply uniquely to this contract. This section is intended to capture details that deviate from the standard contract terms. Ensure all special requirements or agreements are clearly outlined to avoid any misunderstandings.
+
+Note: This field should be filled out only if the &quot;Custom Contract&quot; checkbox is ticked.</inlineHelpText>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+</CustomField>

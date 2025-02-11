@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Users</fullName>
+    <columns>NAME</columns>
+    <columns>Period_Review_Date__c</columns>
+    <columns>Cost_Centre__c</columns>
+    <columns>Sales_Channel__c</columns>
+    <columns>Personal_Revenue_Target__c</columns>
+    <columns>Personal_Revenue_Achieved__c</columns>
+    <columns>Personal_Revenue_Vs_Target__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Period_Review_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>4/30/2021</value>
+    </filters>
+    <label>Users</label>
+</ListView>

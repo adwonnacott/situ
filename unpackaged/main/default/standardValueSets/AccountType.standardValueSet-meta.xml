@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Open Opportunity</fullName>
+        <default>true</default>
+        <label>Open Opportunity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lost Prospect</fullName>
+        <default>false</default>
+        <label>Lost Opportunity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Client</fullName>
+        <default>false</default>
+        <label>New Client</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Client</fullName>
+        <default>false</default>
+        <label>Existing Client</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Client at Risk</fullName>
+        <default>false</default>
+        <label>Client at Risk</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Client</fullName>
+        <default>false</default>
+        <label>Lost Client</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Checked_On__c</fullName>
+    <description>The date the Supplier has been credit checked. This may have been implied from the first successful booking.</description>
+    <label>Credit Checked On</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Date</type>
+</CustomField>

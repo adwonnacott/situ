@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Working</fullName>
+        <default>false</default>
+        <label>Working</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Nurturing</fullName>
+        <default>false</default>
+        <label>Nurturing</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Converted</fullName>
+        <default>false</default>
+        <label>Converted</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Uncontacted Supplier</fullName>
+        <default>false</default>
+        <label>Uncontacted Supplier</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress Supplier Account</fullName>
+        <default>false</default>
+        <label>In Progress Supplier Account</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Partnered</fullName>
+        <default>false</default>
+        <label>Closed Partnered</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Parked</fullName>
+        <default>false</default>
+        <label>Closed Parked</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Convert as Sales</fullName>
+        <default>false</default>
+        <label>Convert as Sales</label>
+        <converted>true</converted>
+    </standardValue>
+</StandardValueSet>

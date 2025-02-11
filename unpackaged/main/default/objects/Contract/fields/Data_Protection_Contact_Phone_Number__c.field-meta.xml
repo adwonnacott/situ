@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Protection_Contact_Phone_Number__c</fullName>
+    <description>The phone number for the data protection contact.</description>
+    <inlineHelpText>Enter a direct phone number where the data protection contact can be reached. Include the country code if applicable.</inlineHelpText>
+    <label>Data Protection Contact Phone Number</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Phone</type>
+</CustomField>

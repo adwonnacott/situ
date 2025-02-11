@@ -1,0 +1,43 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body style="height: auto; min-height: auto;">
+  <div style="text-align: center;"><img alt="MicrosoftTeams-image (4)" src="{[devName:MicrosoftTeamsimage_4]}" style="max-width: 1487.25px; width: 397px; height: 79px;" title="MicrosoftTeams-image (4)" />
+  </div>
+  <div><br /> <span style="color:#221734;"><span style="font-family:Gill Sans,Arial,Helvetica,sans-serif;"><span style="font-size:11pt"><span style="line-height:107%">Hello,<br /> <br /> I have been looking at your account property/properties {{{Supplier_Buildings__c.Name}}} and have noticed that your<b>&nbsp;Gas Safety Certificate is due to expire in the next 30 days on the {{{Supplier_Buildings__c.Gas_Certificate_Expiry_Date__c}}}.</b><br /> <br /> Please would you be able to send this to us, as soon as it has been renewed, &nbsp;so we are able to update your account accordingly.</span></span><br /> <br /> <span style="font-size:11pt"><span style="line-height:107%">We look forward to hearing from you.</span></span><br /> <br /> <span style="font-size:11pt"><span style="line-height:107%">Kind regards,</span></span><br /> <br /> <span style="font-size:11pt"><span style="line-height:107%">Situ Supply Chain</span></span></span></span><br /> <a aria-label="Link content@staysitu.com" href="mailto:content@staysitu.com" rel="noopener noreferrer" tabindex="-1" target="_blank" title="mailto:content@staysitu.com">content@staysitu.com</a>
+  </div>
+  <div style="text-align: center;">
+   &nbsp;
+  </div>
+  <div><span style="color:#221734;"><span style="font-size:12px;">SITU Serviced Apartments<br /> Unit 3, Ulysses House, Ulysses Park<br /> Heron Road<br /> Exeter, EX2 7PH<br /> United Kingdom</span></span>
+  </div>
+  <div style="text-align: center;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 261.047px; top: 251px; text-align: center;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 261.047px; top: 251px; text-align: center;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 218.547px; top: 251px; text-align: center;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 218.547px; top: 251px; text-align: center;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 291.547px; top: 8px;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 291.547px; top: 8px;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 150.6px; top: 8px;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 150.6px; top: 8px;">
+   &nbsp;
+  </div>
+ </body>
+</html>

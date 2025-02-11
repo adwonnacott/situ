@@ -1,0 +1,9 @@
+*** CASE MIGHT MISS SLA ***  
+
+Below case might miss SLA. Make Sure the case is Partially Resolved until the milestone expires.
+
+Company:  {!Account.Name} 
+Case:  {!Case.CaseNumber}:  {!Case.Subject} 
+Owner:  {!Case.OwnerFullName}  
+
+Click on the link to access the case:  {!Case.Link}

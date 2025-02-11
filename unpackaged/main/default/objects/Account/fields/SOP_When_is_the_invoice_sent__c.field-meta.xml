@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SOP_When_is_the_invoice_sent__c</fullName>
+    <label>When is the invoice sent?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Invoice Creation Date</fullName>
+                <default>false</default>
+                <label>Invoice Creation Date</label>
+            </value>
+            <value>
+                <fullName>Check in Date</fullName>
+                <default>false</default>
+                <label>Check in Date</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

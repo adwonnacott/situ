@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Created by Name --></label>
+        <name>Created_by_Name__c</name>
+        <picklistValues>
+            <masterLabel>Amelia McDonald</masterLabel>
+            <translation><!-- Amelia McDonald --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bethany Eveleigh</masterLabel>
+            <translation><!-- Bethany Eveleigh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conar Pearson</masterLabel>
+            <translation><!-- Conar Pearson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jody Kennard</masterLabel>
+            <translation><!-- Jody Kennard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joe Whitehouse</masterLabel>
+            <translation><!-- Joe Whitehouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monika Meel</masterLabel>
+            <translation><!-- Monika Meel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebecca Brooker</masterLabel>
+            <translation><!-- Rebecca Brooker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sam Davies</masterLabel>
+            <translation><!-- Sam Davies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seth Hanson</masterLabel>
+            <translation><!-- Seth Hanson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taylor Bray</masterLabel>
+            <translation><!-- Taylor Bray --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

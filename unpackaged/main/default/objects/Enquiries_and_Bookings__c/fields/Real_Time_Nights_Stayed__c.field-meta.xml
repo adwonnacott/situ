@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Real_Time_Nights_Stayed__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Today()  &gt;  Check_In_Date__c , ( Actual_Nights_Formula__c  = 0)),  Number_of_Nights__c ,  Actual_Nights_Formula__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Real Time Nights Stayed</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

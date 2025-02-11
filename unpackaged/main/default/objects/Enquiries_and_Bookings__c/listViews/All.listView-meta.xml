@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>Date_Time_First_Created__c</columns>
+    <columns>Owner_Name__c</columns>
+    <columns>NAME</columns>
+    <columns>Enquiry_Status__c</columns>
+    <columns>Account__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Supplier_Account__c</columns>
+    <columns>Check_In_Date__c</columns>
+    <columns>Number_of_Nights__c</columns>
+    <columns>Total_Booking_Value__c</columns>
+    <columns>Total_Revenue_to_SITU__c</columns>
+    <columns>SLA_Response_Time_Target_Minutes__c</columns>
+    <columns>Enquiry_to_Quote_SLA_Timer__c</columns>
+    <columns>BookingID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>BookingID__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Date_Time_First_Created__c</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2017 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Location_Name__c</field>
+        <operation>equals</operation>
+        <value>Yeovil</value>
+    </filters>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UK_VAT_Registered_Business__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates if the partner is a VAT-registered business in the UK.</description>
+    <inlineHelpText>Check the box if the partner is a VAT registered in the UK.</inlineHelpText>
+    <label>UK VAT-Registered Business</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bookings_in_This_Month_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(ISPICKVAL( Enquiry_Status__c , &quot;Closed Booked&quot;),   Date_of_Booking__c  &gt;=     This_Month_Start_Date_Formula__c    ,  Date_of_Booking__c  &lt;=     This_Month_End_Date_Formula__c    ), 1, NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Bookings in This Month Formula</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

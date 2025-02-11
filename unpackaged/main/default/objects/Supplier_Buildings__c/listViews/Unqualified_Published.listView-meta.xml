@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unqualified_Published</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Building_Stage__c</field>
+        <operation>equals</operation>
+        <value>Visible</value>
+    </filters>
+    <label>Unqualified Published</label>
+</ListView>

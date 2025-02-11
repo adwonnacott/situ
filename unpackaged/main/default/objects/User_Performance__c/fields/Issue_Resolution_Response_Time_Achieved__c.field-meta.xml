@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issue_Resolution_Response_Time_Achieved__c</fullName>
+    <description>Actual number of minutes it took to partially resolve issue during period</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Actual number of minutes it took to partially resolve issue during period</inlineHelpText>
+    <label>Issue Resolution Response Time Achieved</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

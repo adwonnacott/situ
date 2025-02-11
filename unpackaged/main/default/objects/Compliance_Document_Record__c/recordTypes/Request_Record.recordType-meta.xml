@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Record</fullName>
+    <active>true</active>
+    <label>Request Record</label>
+    <picklistValues>
+        <picklist>Created_by_Name__c</picklist>
+        <values>
+            <fullName>Amelia McDonald</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bethany Eveleigh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conar Pearson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jody Kennard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joe Whitehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monika Meel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rebecca Brooker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sam Davies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seth Hanson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taylor Bray</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Document_Type__c</picklist>
+        <values>
+            <fullName>Gas Safety Certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Gas Declaration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Liability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terms of Stay</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Upload_Reason__c</picklist>
+        <values>
+            <fullName>Insurance Options</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Response to Expiry Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Updating All Properties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urgent Booking</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Pl_expiry_30days</fullName>
+        <description>Pl expiry 30days</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Main_Contact_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>suppliers@staysitu.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>MainFolder/PL_expiry_30_days_1646740997507</template>
+    </alerts>
+    <alerts>
+        <fullName>Pl_expiry_7days</fullName>
+        <description>Pl expiry 7days</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Main_Contact_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>suppliers@staysitu.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>MainFolder/PL_expiry_7_days_1646412214411</template>
+    </alerts>
+    <alerts>
+        <fullName>Pl_expiry_Tomorrow</fullName>
+        <description>Pl expiry Tomorrow</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Main_Contact_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>suppliers@staysitu.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>MainFolder/PL_expiry_tomorroe_1646741049581</template>
+    </alerts>
+    <alerts>
+        <fullName>STAAH_announcement</fullName>
+        <description>STAAH announcement</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Main_Contact_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>integrations@staysitu.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>MainFolder/STAHH_Announcement_1653558245275</template>
+    </alerts>
+</Workflow>

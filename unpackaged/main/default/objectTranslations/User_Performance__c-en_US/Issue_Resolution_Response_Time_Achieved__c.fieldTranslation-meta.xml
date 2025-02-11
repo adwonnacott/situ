@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Actual number of minutes it took to partially resolve issue during period --></help>
+        <label><!-- Issue Resolution Response Time Achieved --></label>
+        <name>Issue_Resolution_Response_Time_Achieved__c</name>
+    </CustomFieldTranslation>

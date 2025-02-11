@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Stage__c</fullName>
+    <label>Supplier Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prospective Provider</fullName>
+                <default>false</default>
+                <label>Prospective Provider</label>
+            </value>
+            <value>
+                <fullName>In Progress Partnership</fullName>
+                <default>false</default>
+                <label>In Progress Partnership</label>
+            </value>
+            <value>
+                <fullName>No reply</fullName>
+                <default>false</default>
+                <label>No reply</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Unqualified</fullName>
+                <default>false</default>
+                <label>Unqualified</label>
+            </value>
+            <value>
+                <fullName>Partnered</fullName>
+                <default>false</default>
+                <label>Partnered</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

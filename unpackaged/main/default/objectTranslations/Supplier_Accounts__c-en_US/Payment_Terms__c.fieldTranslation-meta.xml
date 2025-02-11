@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Payment Terms --></label>
+        <name>Payment_Terms__c</name>
+        <picklistValues>
+            <masterLabel>Due upon receipt</masterLabel>
+            <translation><!-- Due upon receipt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Supplier Payment Terms Set</masterLabel>
+            <translation><!-- No Supplier Payment Terms Set --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Due within 14 Days</masterLabel>
+            <translation><!-- Payment Due within 14 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Due within 30 Days</masterLabel>
+            <translation><!-- Payment Due within 30 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Due within 45 Days</masterLabel>
+            <translation><!-- Payment Due within 45 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Due within 7 Days</masterLabel>
+            <translation><!-- Payment Due within 7 Days --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

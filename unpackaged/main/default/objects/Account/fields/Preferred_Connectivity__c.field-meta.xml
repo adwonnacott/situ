@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Connectivity__c</fullName>
+    <description>Captures the partner&#39;s preferred connectivity route to guide the integration process and ensure alignment with their preferences.</description>
+    <inlineHelpText>Specifies the partner&#39;s preferred method for connecting their property data (e.g., PMS, Channel Manager, or Other).</inlineHelpText>
+    <label>Preferred Connectivity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Connectivity_Routes</valueSetName>
+    </valueSet>
+</CustomField>

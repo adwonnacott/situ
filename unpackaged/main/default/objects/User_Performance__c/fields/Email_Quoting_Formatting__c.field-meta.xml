@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Quoting_Formatting__c</fullName>
+    <description>Are emails well formatted?  Are all of the options presented in the same way?</description>
+    <inlineHelpText>Are emails well formatted?  Are all of the options presented in the same way?</inlineHelpText>
+    <label>Email / Quoting Formatting</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Score</valueSetName>
+    </valueSet>
+</CustomField>

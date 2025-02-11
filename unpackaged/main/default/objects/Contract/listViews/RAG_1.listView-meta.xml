@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RAG_1</fullName>
+    <columns>CONTRACT.CONTRACT_NUMBER</columns>
+    <columns>Supplier_Accounts__c</columns>
+    <columns>CONTRACT.STATUS</columns>
+    <columns>Risk_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTRACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contract.Supplier_Contracts</value>
+    </filters>
+    <filters>
+        <field>Risk_Status__c</field>
+        <operation>equals</operation>
+        <value>Red1</value>
+    </filters>
+    <label>RED 1</label>
+</ListView>

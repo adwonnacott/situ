@@ -1,0 +1,17 @@
+Dear guest, 
+
+Help us improve our service by rating your stay!
+
+Submitting a rating will take less than a minute and helps us continue to deliver the best service to our guests. 
+
+{!SUBSTITUTE(ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Email_Embedded_Question_Preview__c, "https://www.ardira.com?", ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Response_URL__c&"&")}
+
+
+Start the survey by clicking the link below.
+
+{!ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Record_Edit_URL__c}
+
+Thank you,
+
+Best regards, 
+SITU Serviced Apartments

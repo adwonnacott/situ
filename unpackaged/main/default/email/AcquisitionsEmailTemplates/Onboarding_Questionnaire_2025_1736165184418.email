@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-y: hidden;">
+<head><meta><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Partnering with Situ</title>
+	<style type="text/css">body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            color: #221734;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            max-width: 150px;
+            height: auto;
+        }
+        .header {
+            text-align: ;
+            font-family: 'Freigeist Con Black', Arial, sans-serif;
+            color: #EA5C48;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .content {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .content a {
+            color: #4022C0;
+            text-decoration: none;
+        }
+        .content a:hover {
+            text-decoration: underline;
+        }
+        .content ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .content li {
+            margin-bottom: 5px;
+        }
+        .button-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .button-container a {
+            display: inline-block;
+            background-color: #EA5C48;
+            color: #ffffff;
+            text-decoration: none;
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 12px 20px;
+            border-radius: 5px;
+        }
+        .button-container a:hover {
+            background-color: #d45041;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #999999;
+            margin-top: 20px;
+        }
+        .footer a {
+            color: #4022C0;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+	</style>
+</head>
+<body style="height: auto; min-height: auto;">
+<div class="email-container">
+<div class="header">Take the Next Step to Partner with Situ</div>
+
+<div class="content">
+<p>Hi {{{Recipient.FirstName}}},</p>
+
+<p>Thank you for your interest in partnering with Situ! We&rsquo;re excited about the opportunity to work together and showcase your properties to our global clients.</p>
+
+<p>We&rsquo;ve introduced an updated <strong>Partner Onboarding Form</strong>. This is the first step to getting your properties listed with us, and it helps us gather all the key details about your portfolio.</p>
+
+<p><strong>Minimum Requirements for Partnership:</strong></p>
+
+<ul>
+	<li><strong>10+ managed properties:</strong> This could be 10 individual properties or 10+ units in one location.</li>
+	<li><strong>A proven track record of success:</strong> Consistently well-managed properties with positive guest feedback and reliable operations.</li>
+	<li><strong>Integration with a supported PMS or channel manager</strong> (preferred): You can find more details about supported technology on our <a href="https://www.staysitu.com/technology-hub" target="_blank">Technology Hub</a>.</li>
+</ul>
+
+<p>If you meet these criteria, click the button below to complete the form:</p>
+</div>
+
+<div class="button-container"><a href="https://share-eu1.hsforms.com/2TtHy9jM9T_ugUmykp5SF5g2dfls0" target="_blank">Complete the Partner Onboarding Form</a></div>
+
+<div class="content">
+<p>If you have any questions or need assistance with the form, don&rsquo;t hesitate to reach out. We&rsquo;re here to help and look forward to the possibility of partnering with you!</p>
+
+<p>Situ Acquisitions Team</p>
+</div>
+
+<div class="footer">
+<p>&copy; 2025 Situ. All rights reserved.<br />
+<a href="https://www.staysitu.com/privacy-policy/our-privacy-policy-an-overview">Privacy Policy</a></p>
+</div>
+</div>
+</body>
+</html>

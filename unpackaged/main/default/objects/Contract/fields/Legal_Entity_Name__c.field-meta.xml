@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Entity_Name__c</fullName>
+    <description>The official name of a business as registered with the relevant authorities.</description>
+    <inlineHelpText>Please enter the full legal name of the company. This should match the name on incorporation documents and any official records.</inlineHelpText>
+    <label>Legal Entity Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

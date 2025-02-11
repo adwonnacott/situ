@@ -1,0 +1,51 @@
+<html style="overflow-y: hidden;">
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<div style="text-align: center;"><img alt="SITU-Blue-200" src="https://situlivingltd--c.documentforce.com/file-asset-public/SITUBlue2001?oid=00D4K0000018dYZ" style="max-width: 675.91px; width: 133px; height: 95px;" title="SITU-Blue-200" /><br />
+&nbsp;</div>
+
+<div style="text-align: center;"><span style="color:#878787;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:16px;">Dear Guest,&nbsp;<br />
+<br />
+Thank you for booking with SITU and welcome!<br />
+<br />
+Please take a second to rate your apartment. It can be done in one click and comments are optional. Your feedback really helps us to improve our service</span></span></span></div>
+
+<div style="text-align: center;"><br />
+&nbsp;</div>
+
+<div style="text-align: center;"><a href="{!ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Record_Edit_URL__c}"><span style="color:#6c8f98;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:16px;"><b>Rate Your Apartment:</b></span></span></span></a><br />
+&nbsp;</div>
+
+<div style="text-align: center;"><a href="{!ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Record_Edit_URL__c}"><img alt="stars 200" src="https://situlivingltd--c.documentforce.com/file-asset-public/stars_200?oid=00D4K0000018dYZ" style="max-width: 675.91015625px" title="stars 200" /></a></div>
+
+<div style="text-align: center;"><br />
+<span style="color:#878787;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="font-size:16px;">If you want to contact us to discuss your stay or discuss upcoming bookings please email us on enquiries@situ.co.uk<br />
+<br />
+Many Thanks,&nbsp;<br />
+Best,&nbsp;<br />
+The SITU Team</span></span></span><br />
+<br />
+<br />
+<br />
+<span style="color:#878787;"><span style="font-size:12px;">SITU Serviced Apartments<br />
+Unit 3, Ulysses House, Ulysses Park<br />
+Heron Road<br />
+Exeter, EX2 7PH<br />
+United Kingdom<br /></span></span><br />
+<a href="https://situ.force.com/service/ArdiraSurvey/SurveyResponse.app?recordId=a0t4K000000YlS0&logicalId=f37db93e-b7bb-297a-4457-72fc0e651393&targetId={!ArdiraSurvey__Survey_Result__c.Target_GuestId__c}"><span style="font-size:12px;">unsubscribe from guest surveys</span></a> <span style="font-size:12px;">&nbsp;
+
+
+
+<div style="text-align: center;">&nbsp;</div>
+
+<div id="" style="left: 261.047px; top: 251px; text-align: center;">&nbsp;</div>
+
+<div id="" style="left: 261.047px; top: 251px; text-align: center;">&nbsp;</div>
+
+<div id="" style="left: 218.547px; top: 251px; text-align: center;">&nbsp;</div>
+
+<div id="" style="left: 218.547px; top: 251px; text-align: center;">&nbsp;</div>
+</body>
+</html>

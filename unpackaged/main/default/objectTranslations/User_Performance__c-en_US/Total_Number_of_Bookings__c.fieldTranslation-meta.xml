@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total number of bookings confirmed in month being reported --></help>
+        <label><!-- Total Number of Bookings --></label>
+        <name>Total_Number_of_Bookings__c</name>
+    </CustomFieldTranslation>

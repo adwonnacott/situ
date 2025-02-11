@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>losed_Partner_Leads_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Closed Partner Leads</label>
+    <queue>Closed_Partner_Leads</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

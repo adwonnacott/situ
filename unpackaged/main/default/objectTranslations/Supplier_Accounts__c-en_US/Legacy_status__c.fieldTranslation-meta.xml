@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Legacy  status --></label>
+        <name>Legacy_status__c</name>
+        <picklistValues>
+            <masterLabel>Top 15</masterLabel>
+            <translation><!-- Top 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top 16-100</masterLabel>
+            <translation><!-- Top 16-100 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

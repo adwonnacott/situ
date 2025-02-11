@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grade_Rating__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE(
+IF(pi__grade__c = &quot;D-&quot;, &quot;/img/samples/stars_100.gif&quot;,
+IF(pi__grade__c = &quot;D&quot;, &quot;/img/samples/stars_200.gif&quot;,
+IF(pi__grade__c = &quot;D+&quot;, &quot;/img/samples/stars_200.gif&quot;,
+IF(pi__grade__c = &quot;C-&quot;, &quot;/img/samples/stars_200.gif&quot;,
+IF(pi__grade__c = &quot;C&quot;, &quot;/img/samples/stars_300.gif&quot;,
+IF(pi__grade__c = &quot;C+&quot;, &quot;/img/samples/stars_300.gif&quot;,
+IF(pi__grade__c = &quot;B-&quot;, &quot;/img/samples/stars_400.gif&quot;,
+IF(pi__grade__c = &quot;B&quot;, &quot;/img/samples/stars_400.gif&quot;,
+IF(pi__grade__c = &quot;B+&quot;, &quot;/img/samples/stars_400.gif&quot;,
+IF(pi__grade__c = &quot;A-&quot;, &quot;/img/samples/stars_500.gif&quot;,
+IF(pi__grade__c = &quot;A&quot;, &quot;/img/samples/stars_500.gif&quot;,
+IF(pi__grade__c = &quot;A+&quot;, &quot;/img/samples/stars_500.gif&quot;,
+&quot;/img/samples/stars_000.gif&quot;
+)))))))))))),
+&quot;Rating&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Grade Rating</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

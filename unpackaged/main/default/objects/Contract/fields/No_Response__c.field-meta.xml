@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Response__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Tracks whether the partner has responded to contract-related requests for information. Automatically checked when the contract status changes to &#39;Requested Legal Info&#39;, &#39;Sent&#39;, or &#39;In Negotiation (Partner)&#39;, and manually unchecked when the partner replies.</description>
+    <inlineHelpText>This box is checked when we are waiting for a response from the partner regarding contract negotiations. Uncheck this box manually once the partner has acknowledged or provided the requested information.</inlineHelpText>
+    <label>No Response</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

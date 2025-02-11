@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Property_Types__c</fullName>
+    <description>These are the types of properties our partners operate. Identifies the type(s) of property associated with the partner. Use this field to segment partners by property type for reporting and marketing purposes.</description>
+    <inlineHelpText>Select all the property types that the partner operates.</inlineHelpText>
+    <label>Property Types</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Property_Types</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

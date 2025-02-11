@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email template is used to notify guests about survey</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>SITU_Standard</letterhead>
+    <name>Guest Survey</name>
+    <style>freeForm</style>
+    <subject>Help Us Improve! Rate Your Stay | SITU Serviced Apartments</subject>
+    <textOnly>Dear guest,
+
+Welcome and hope you will enjoy your stay!
+
+Here at SITU, we aim to make booking serviced accommodation effortless.
+
+Please help us to continue to improve our service by rating your accommodation. It will only take a few seconds.
+
+
+Start the survey by clicking the link below.
+
+{!ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Record_Edit_URL__c}
+
+Thank you,
+
+Best regards,
+SITU Serviced Apartments
+
+Copyright © {{Current_Year}}, All rights reserved.
+
+Our mailing address is:
+
+SITU Serviced Apartments
+Unit 3, Ulysses House, Ulysses Park
+Heron Road
+Exeter, EX2 7PH
+United Kingdom
+unsubscribe from all emails update subscription preferences</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

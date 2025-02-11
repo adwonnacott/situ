@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Do emails read well, are to the point and easy to interpret? --></help>
+        <label><!-- Email / Quoting Flow --></label>
+        <name>Email_Quoting_Flow__c</name>
+    </CustomFieldTranslation>

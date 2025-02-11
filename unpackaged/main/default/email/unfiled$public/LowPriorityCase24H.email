@@ -1,0 +1,9 @@
+*** LOW PRIORITY CASE MISSED ITS MILESTONE ***  
+
+ It has been 24 hours since a low priority case was created, but it still is not Partially Resolved. Unless resolved, the account owner will be notified in 24 hours. 
+
+Company:  {!Account.Name} 
+Case:  {!Case.CaseNumber}:  {!Case.Subject} 
+Owner:  {!Case.OwnerFullName}  
+
+Click on the link to access the case:  {!Case.Link}

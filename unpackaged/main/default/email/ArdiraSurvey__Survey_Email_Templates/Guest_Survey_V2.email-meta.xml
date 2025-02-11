@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Guest Survey V2</name>
+    <style>none</style>
+    <subject>Rate Your Stay in One Simple Click - Help SITU Improve!</subject>
+    <textOnly>Dear Guest,
+
+Thank you for booking with SITU and welcome!
+
+Please take a second to rate your apartment. It can be done in one click and comments are optional. Your feedback really helps us to improve our service
+
+Rate Your Apartment: {!ArdiraSurvey__Survey_Result__c.ArdiraSurvey__Record_Edit_URL__c}
+
+If you want to contact us to discuss your stay or discuss upcoming bookings please email us on enquiries@situ.co.uk
+
+Many Thanks,
+Best,
+The SITU Team
+
+Unsubscribe : https://situ.force.com/service/ArdiraSurvey/SurveyResponse.app?recordId=a0t4K000000YlS0&amp;logicalId=f37db93e-b7bb-297a-4457-72fc0e651393&amp;targetId={!ArdiraSurvey__Survey_Result__c.Target_GuestId__c}
+
+SITU Serviced Apartments
+Unit 3, Ulysses House, Ulysses Park
+Heron Road
+Exeter, EX2 7PH
+United Kingdom
+
+unsubscribe from guest surveys</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

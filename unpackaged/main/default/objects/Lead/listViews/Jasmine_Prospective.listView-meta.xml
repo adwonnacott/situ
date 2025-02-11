@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jasmine_Prospective</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>Which_locations_do_you_operate__c</columns>
+    <columns>Number_of_properties__c</columns>
+    <columns>Supplier_Stage__c</columns>
+    <columns>Supplier_Sub_Stage__c</columns>
+    <columns>Current_Notes__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Supply_Leads</value>
+    </filters>
+    <filters>
+        <field>Supplier_Stage__c</field>
+        <operation>equals</operation>
+        <value>Prospective Provider</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>jtava</value>
+    </filters>
+    <label>Jasmine Prospective</label>
+</ListView>

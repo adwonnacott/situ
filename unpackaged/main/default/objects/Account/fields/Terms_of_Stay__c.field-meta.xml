@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Terms_of_Stay__c</fullName>
+    <description>These are the partner&#39;s terms of stay, which include terms and conditions related to their accommodations and policies/requirements for guests during their stay.</description>
+    <inlineHelpText>Enter the full terms of stay applicable to the partner’s accommodations. This field supports up to 20,000 characters.</inlineHelpText>
+    <label>Terms of Stay</label>
+    <length>20000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

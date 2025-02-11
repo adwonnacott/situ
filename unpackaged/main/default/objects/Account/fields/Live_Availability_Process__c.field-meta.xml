@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Live_Availability_Process__c</fullName>
+    <label>Live Availability Process</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Uncontacted Supplier</fullName>
+                <default>false</default>
+                <label>Uncontacted Supplier</label>
+            </value>
+            <value>
+                <fullName>No Matching Channel Manager</fullName>
+                <default>false</default>
+                <label>No Matching Channel Manager</label>
+            </value>
+            <value>
+                <fullName>LIVE In Progress</fullName>
+                <default>false</default>
+                <label>LIVE In Progress</label>
+            </value>
+            <value>
+                <fullName>Testing</fullName>
+                <default>false</default>
+                <label>Testing</label>
+            </value>
+            <value>
+                <fullName>Closed Parked</fullName>
+                <default>false</default>
+                <label>Closed Parked</label>
+            </value>
+            <value>
+                <fullName>Live</fullName>
+                <default>false</default>
+                <label>Live</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

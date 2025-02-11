@@ -1,0 +1,9 @@
+*** MEDIUM PRIORITY CASE WAS CREATED ***  
+
+A medium priority case was created and might need your attention. 
+
+Company:  {!Account.Name} 
+Case:  {!Case.CaseNumber}:  {!Case.Subject} 
+Owner:  {!Case.OwnerFullName}  
+
+Click on the link to access the case:  {!Case.Link}

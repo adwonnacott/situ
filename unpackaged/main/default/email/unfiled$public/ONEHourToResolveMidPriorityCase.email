@@ -1,0 +1,9 @@
+*** ONE HOUR LEFT TO RESOLVE THE CASE ***  
+
+A medium priority case was created 3 hours ago. You Need to Partially Resolve this case within an hour or it will be escalated and Senior Managers will be notified.  
+
+Company:  {!Account.Name} 
+Case:  {!Case.CaseNumber}:  {!Case.Subject} 
+Owner:  {!Case.OwnerFullName}  
+
+Click on the link to access the case:  {!Case.Link}

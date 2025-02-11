@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>hello@situ.co.uk</email>
+    <name>New Web Leads</name>
+    <queueMembers>
+        <users>
+            <user>ben.searle@staysitu.com</user>
+            <user>beth.clark@staysitu.com</user>
+            <user>hannah.trigg@staysitu.com</user>
+            <user>jacob.berry@staysitu.com</user>
+            <user>tamara.edgar@staysitu.com</user>
+            <user>yolanda.blomjous@staysitu.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>
